@@ -1,0 +1,47 @@
+const toggleButton = document.querySelector('.toggle-button');
+const sidebar = document.querySelector('.sidebar');
+const mainContent = document.querySelector('.main-content');
+
+toggleButton.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+  mainContent.classList.toggle('active');
+  toggleButton.setAttribute('aria-expanded', sidebar.classList.contains('active'));
+});
+
+document.addEventListener('click', (event) => {
+  if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
+    sidebar.classList.remove('active');
+    mainContent.classList.remove('active');
+    toggleButton.setAttribute('aria-expanded', false);
+  }
+});
+
+const sections = document.querySelectorAll('.section');
+const headerHeight = document.querySelector('header').offsetHeight;
+
+document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+
+const scrollToSection = (sectionId) => {
+  const section = document.querySelector(sectionId);
+  const sectionTop = section.getBoundingClientRect().top - headerHeight;
+  window.scrollTo({
+    top: sectionTop,
+    behavior: 'smooth'
+  });
+};
+
+const currentYear = document.getElementById("currentYear");
+currentYear.textContent = new Date().getFullYear();
+
+const accordionItems = document.querySelectorAll('.accordion-item');
+
+accordionItems.forEach(item => {
+  const header = item.querySelector('.accordion-header');
+  const content = item.querySelector('.accordion-content');
+
+  header.addEventListener('click', () => {
+    // Alternar o estado do acordeão:
+    content.classList.toggle('accordion-active');
+    header.classList.toggle('accordion-active');
+  });
+});
