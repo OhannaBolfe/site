@@ -575,14 +575,10 @@ footer {
     }
 
     .sidebar li {
-        padding: 8px 20px;
+        padding: 8px 30px;
         border: none;
         /*👉        float: none;👈*/
         text-align: center;
-    }
-
-    .sidebar li:hover {
-        padding: 8px 30px;
     }
 
     .main-content {
