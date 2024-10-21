@@ -331,8 +331,9 @@ footer {
 }
 
 .sidebar li {
-    border-right: 2px solid #ecf0f1a6;
+    /*border-right: 2px solid #ecf0f1a6;*/
     float: left;
+    padding: 10px;
 }
 
 .sidebar li a{
@@ -575,6 +576,7 @@ footer {
     }
 
     .sidebar li {
+        padding: 10px;
         border: none;
         /*👉        float: none;👈*/
         text-align: center;
