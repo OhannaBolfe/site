@@ -331,9 +331,14 @@ footer {
 }
 
 .sidebar li {
-    padding: 5px 20px;
     border-right: 2px solid #ecf0f1a6;
     float: left;
+}
+
+.sidebar li a{
+    padding: 5px 20px;
+    color: #ecf0f1;
+    text-decoration: none;
 }
 
 .sidebar li:last-child {
@@ -352,11 +357,6 @@ footer {
 .sidebar li:hover::after {
     content: '⟫';
     margin-left: 10px;
-}
-
-.sidebar li a {
-    color: #ecf0f1;
-    text-decoration: none;
 }
 
 .main-content {
@@ -575,10 +575,13 @@ footer {
     }
 
     .sidebar li {
-        padding: 8px 30px;
         border: none;
         /*👉        float: none;👈*/
         text-align: center;
+    }
+
+    .sidebar li a {
+        padding: 8px 30px;
     }
 
     .main-content {
