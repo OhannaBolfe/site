@@ -33,7 +33,7 @@ const scrollToSection = (sectionId) => {
 document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
     const copyrightElement = document.querySelector('meta[name="copyright"]');
-    const yearElement = document.getElementById("currentYear"); // Use o mesmo ID
+    const yearElement = document.getElementById("currentYear");
 
     copyrightElement.setAttribute('content', `Ohanna Schmitt Bolfe, ${currentYear}`);
     yearElement.textContent = currentYear; 
