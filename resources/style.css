@@ -178,14 +178,14 @@ footer {
 
 .section2,
 .section4 {
-    background-color: rgb(10, 10, 10);
+    background-color: #7f8fa6;
     /*👉    background-position-y: 0;👈*/
     color: #ecf0f1;
 }
 
 .section3,
 .section5 {
-    background-color: #bdc3c7;
+    background-color: #f5f6fa;
     color: black;
     /*👉    background-position-y: 0;👈*/
 }
