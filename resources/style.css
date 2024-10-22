@@ -280,13 +280,13 @@ width: 200px;
 
 .missaovisaovalores:hover {
     /*background-color: black;*/
-    box-shadow: 3px 4px 0 rgb(83, 83, 83);
+    /*box-shadow: 3px 4px 0 rgb(83, 83, 83);
     padding: 15px;
-    border-radius: 5px;
+    border-radius: 5px;*/
 }
 
 .missaovisaovalores:hover .coluna {
-    color: white;
+    /*color: white;*/
 }
 
 .section5 img {
