@@ -534,7 +534,6 @@ padding-bottom: 0;
 
     .container,
     .section {
-        max-width: 90%;
         padding-left: 10px;
     }
 
@@ -561,7 +560,6 @@ padding-bottom: 0;
     }
 
     header {
-        width: 93%;
         flex-direction: column;
         align-items: flex-start;
     }
