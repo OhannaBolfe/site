@@ -217,7 +217,7 @@ footer {
 /*MISSÃO, VISÃO E VALORES*/
 
 
-.section3 .container {
+.missaovisaovalores_colunado {
   display: flex; /* Define o container como flexbox */
   justify-content: space-between; /* Distribui as colunas igualmente */
 }
