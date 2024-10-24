@@ -536,12 +536,7 @@ padding-bottom: 0;
 
     .container header {
         padding: 0;
-    }
-
-
-    .section{
-/*padding: 100px 50px 50px 50px;*/
-    }  
+    } 
     
     .section3{
 padding: 40px;
@@ -669,20 +664,28 @@ padding: 40px;
   }
 
       .section1, .section2, .section4, .section5 {
-    padding-top: 110px;
+    padding-top: 120px;
   }
 
-     .section2 {
+     .section3 {
+        
+    }
+
+    .container {
         
     }
 }
 
 @media (max-width: 350px) {
   section1, .section2, .section4, .section5 {
-    padding-top: 110px;
+    padding-top: 130px;
   }
 
-    .section2 {
+    .section3 {
+        
+    }
+
+    .container {
         
     }
 }
