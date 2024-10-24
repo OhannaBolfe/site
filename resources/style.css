@@ -78,8 +78,7 @@ li {
 /*CABEÇALHO*/
 
 header {
-    box-shadow: 2px 3px 0px #000000;
-    background-color: rgb(0, 0, 30);
+    background-color: #23282f;
     color: #ecf0f1;
     text-align: center;
     position: fixed;
@@ -129,6 +128,12 @@ padding: 50px 0;
     min-height: 100vh;
     overflow-x: hidden;
 }
+
+
+.section1,
+.section2,
+.section4,
+.section5 {padding-top: 100px;}
 
 .section2, .section3 {
     min-height: auto;
@@ -295,13 +300,19 @@ background: #fbc531;
 .sidebar {
     position: fixed;
     top: -200px;
-    background-color: rgb(0, 0, 20);
+    background-color: #23282f;
     transition: left 1s ease-in-out, opacity 1s ease-in;
     z-index: 10;
     width: auto;
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+
+.sidebar.active header {
+background-color: #ecf0f1;
+  color: #23282f;
 }
 
 .sidebar.active {
