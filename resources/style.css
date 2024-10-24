@@ -146,7 +146,8 @@ footer {
 }
 
 .centro img {
-    max-width: 80%;margin: 50px 0 20px 0;
+    max-width: 80%;
+    margin: 50px 0 20px 0;
 }
 
 /*.extra {
@@ -524,6 +525,14 @@ background: #fbc531;
         float: none;
     }
 
+    .centro img {margin: 20px 0 10px 0;}
+
+    .missaovisaovalores_colunado {
+  display: block;}
+
+     .missaovisaovalores_colunado {
+  margin: 0;}
+
     .curriculocontainer {
         flex-direction: column;
     }
@@ -587,23 +596,6 @@ background: #fbc531;
         border: none;
         cursor: pointer;
         z-index: 10;
-    }
-
-    .missaovisaovalores {
-        display: block;
-    }
-
-    .coluna {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .section1 {
-        min-width: auto;
-    }
-
-    .missaovisaovalores figure::before {
-        width: 101%;
     }
 
     .imgdesktop {
