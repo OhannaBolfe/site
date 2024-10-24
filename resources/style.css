@@ -665,7 +665,18 @@ padding: 100px 50px 50px 50px;
       }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 585px) {
+    
+  header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
-
+@media (max-width: 350px) {
+  .section {
+    padding: 120px 50px 50px 50px;
+    min-height: auto;
+  }
 }
