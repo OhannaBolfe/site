@@ -539,9 +539,12 @@ padding-bottom: 0;
     }
 
 
-    .section {
-padding: 100px 50px 50px 50px;
-        min-height: auto;
+    .section{
+/*padding: 100px 50px 50px 50px;*/
+    }  
+    
+    .section3{
+padding: 40px;
     }
 
     .material-symbols-outlined,
@@ -638,10 +641,6 @@ padding: 100px 50px 50px 50px;
         margin-bottom: 20px;
     }
 
-    .section5 {
-        padding-bottom: 30px;
-    }
-
     footer p {
         font-size: 10pt;
     }
@@ -659,10 +658,6 @@ padding: 100px 50px 50px 50px;
         margin-left: 20px;
         font-weight: 400;
       }
-
-      .section1 .container {
-        margin-bottom: 50px;
-      }
 }
 
 @media (max-width: 585px) {
@@ -672,11 +667,15 @@ padding: 100px 50px 50px 50px;
     justify-content: center;
     align-items: center;
   }
+
+      .section {
+    padding-top: 110px;
+  }
 }
 
 @media (max-width: 350px) {
   .section {
-    padding: 120px 50px 50px 50px;
+    padding-top: 120px;
     min-height: auto;
   }
 }
