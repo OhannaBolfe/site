@@ -470,6 +470,10 @@ padding-bottom: 5px;
   border-bottom: 2px solid #f5f6fa;
 }
 
+.accordion-active ..accordion-header{
+padding-bottom: 0;
+}
+
 .accordion-title {
     margin: 0;
     font-weight: 400;
@@ -493,7 +497,7 @@ padding-bottom: 5px;
 }
 
 .accordion-content {
-    background-color: #353b48;
+    background-color: #2f3640;
     color: #f5f6fa;
     font-weight: 400;
     line-height: 1.7;
