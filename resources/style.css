@@ -538,7 +538,8 @@ padding-bottom: 0;
 
 
     .section {
-        padding: 50px;
+padding: 100px 50px 50px 50px;
+        min-height: auto;
     }
 
     .material-symbols-outlined,
@@ -576,10 +577,6 @@ padding-bottom: 0;
     .navegador {
         flex-direction: column;
         align-items: flex-start;
-    }
-
-    .section {
-        padding-top: 170px;
     }
 
     .sidebar {
