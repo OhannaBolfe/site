@@ -528,6 +528,8 @@ padding-bottom: 0;
 /* Adaptação para dispositivos móveis */
 @media (max-width: 1080px) {
 
+    header .container {}
+
     header {
         max-width: 100%;
     }
@@ -567,6 +569,7 @@ padding: 100px 50px 50px 50px;
     header {
         flex-direction: column;
         align-items: flex-start;
+        padding: 15px 0;
     }
 
     header h1 {
@@ -608,7 +611,8 @@ padding: 100px 50px 50px 50px;
         position: relative;
         top: auto;
         left: auto;
-        padding: 5px;
+        padding: 0;
+        padding-right: 5px;
         border: none;
         cursor: pointer;
         z-index: 10;
@@ -659,4 +663,9 @@ padding: 100px 50px 50px 50px;
       .section1 .container {
         margin-bottom: 50px;
       }
+}
+
+@media (max-width: 1080px) {
+
+
 }
