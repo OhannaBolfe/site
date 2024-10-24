@@ -266,9 +266,8 @@ padding: 0 10px;
     font-weight: 400;
 }
 
-.missaovisaovalores:hover figure::before {
-    opacity: 0;
-    border: none;
+.missaovisaovalores:hover img {
+background: #fbc531;
 }
 
 
