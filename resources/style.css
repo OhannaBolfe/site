@@ -556,12 +556,13 @@ padding: 40px;
   margin: 0;}
 
     .curriculocontainer {
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .curriculo {
-        max-width: 100%;
-        margin: 20px;
+            max-width: 90%;
+margin: auto;
+    margin-bottom: 50px;
     }
 
     header {
@@ -664,7 +665,7 @@ padding: 40px;
   }
 
       .section1, .section2, .section4, .section5 {
-    padding-top: 120px;
+    padding: 120px 30px 30px 30px;
   }
 
      .section3 {
@@ -678,7 +679,7 @@ padding: 40px;
 
 @media (max-width: 350px) {
   section1, .section2, .section4, .section5 {
-    padding-top: 130px;
+    padding: 130px  30px 30px 30px;
   }
 
     .section3 {
