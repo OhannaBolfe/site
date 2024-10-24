@@ -66,6 +66,15 @@ li {
     /* Tamanho mínimo para o texto principal */
 }
 
+.centro {
+    text-align: center;
+}
+
+.centro img {
+    max-width: 80%;
+    margin: 50px 0 20px 0;
+}
+
 /*CABEÇALHO*/
 
 header {
@@ -123,6 +132,21 @@ footer {
     overflow-x: hidden;
 }
 
+
+
+.section2,
+.section4 {
+    background-color: #dcdde1;
+    color: black;
+}
+
+.section1,
+.section3,
+.section5 {
+    background-color: #f5f6fa;
+    color: black;
+}
+
 /*.section1 {
     background-image: url("/resources/images/section1.jpg");
     background-size: cover;
@@ -140,15 +164,6 @@ footer {
     max-width: 1000px;
     box-shadow: 5px 4px 0px black;
 }*/
-
-.centro {
-    text-align: center;
-}
-
-.centro img {
-    max-width: 80%;
-    margin: 50px 0 20px 0;
-}
 
 /*.extra {
     margin: 30px;
@@ -176,22 +191,6 @@ footer {
     color: black;
     font-weight: 400;
     padding: 10px 0;
-}
-
-.section2 {
-    padding-bottom: 50px;
-}
-
-.section2,
-.section4 {
-    background-color: #dcdde1;
-    color: black;
-}
-
-.section3,
-.section5 {
-    background-color: #f5f6fa;
-    color: black;
 }
 
 .section5 a {
