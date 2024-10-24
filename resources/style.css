@@ -532,9 +532,13 @@ padding-bottom: 0;
         max-width: 100%;
     }
 
-    .container,
+    .container header {
+        padding: 0;
+    }
+
+
     .section {
-        padding-left: 10px;
+        padding: 50px;
     }
 
     .material-symbols-outlined,
@@ -580,7 +584,6 @@ padding-bottom: 0;
 
     .sidebar {
         max-width: 100%;
-        width: auto;
     }
 
     .sidebar li {
