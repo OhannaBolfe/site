@@ -385,16 +385,16 @@ background: #fbc531;
 }
 
 .profile-pic {
-    width: 100%;
+/*    width: 100%;
     height: auto;
     overflow: hidden;
     align-items: center;
     display: flex;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 .profile-pic img {
-    object-fit: cover;
+   border-radius: 3px 10px;
 }
 
 .info {
@@ -402,9 +402,8 @@ background: #fbc531;
     margin: 10px 0 16px 0;
 }
 
-
 .listagem {
-    margin: 20px;
+margin: 0 20px 20px 20px;
 }
 
 .listagem-item {
@@ -457,13 +456,18 @@ background: #fbc531;
 }
 
 .accordion-header {
-    background-color: #95a5a6;
-    color: black;
-    padding: 15px;
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+}
+
+.accordion-active .accordion-title{
+padding-bottom: 5px;
+  border-bottom: 2px solid #f5f6fa;
 }
 
 .accordion-title {
@@ -489,8 +493,8 @@ background: #fbc531;
 }
 
 .accordion-content {
-    background-color: #bdc3c7;
-    color: black;
+    background-color: #353b48;
+    color: #f5f6fa;
     font-weight: 400;
     line-height: 1.7;
     overflow: hidden;
