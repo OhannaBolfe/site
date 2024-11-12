@@ -353,11 +353,11 @@ footer {
     max-height: 0;
 }
 
-#accordion-1 .accordion-content, #accordion-2 .accordion-content {
+#accordion-1 .accordion-content.accordion-active , #accordion-2 .accordion-content.accordion-active  {
     max-height: 600px;
 }
 
-#accordion-3 .accordion-content {
+#accordion-3 .accordion-content.accordion-active  {
 max-height: 2100px;
 }
 
