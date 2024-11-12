@@ -20,16 +20,6 @@ em {
     margin: 50px 0 20px 0;
 }
 
-ul {
-list-style-type: '⊹';
-  list-style-position: outside;
-  margin-left: 15px;
-}
-
-li {
-  padding-left: 10px; 
-}
-
 body {
     background-color: black;
     display: flex;
@@ -48,6 +38,7 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 20pt;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -56,6 +47,7 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 18pt;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -64,6 +56,7 @@ h3 {
     font-weight: 700;
     font-style: normal;
     font-size: 16pt;
+    margin-bottom: 20px;
 }
 
 h4 {
@@ -105,7 +98,9 @@ header {
     align-items: center;
 }
 
-header .container {padding: 12px; }
+header .container {
+    padding: 12px;
+}
 
 header h1 {
     margin: 0;
@@ -113,28 +108,42 @@ header h1 {
     float: left;
 }
 
-.areaatuacao {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+
+
+.areaatuacao ul {
+    padding-left: 0;
 }
 
-.personalidade, 
-.obrigacoes, 
-.intelectual {width: 30%;}
-
-.imobiliario, 
-.medico {width: 45%;}
-
-.imobiliario ul, .medico ul {
-display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.personalidade ul,
+.obrigacoes ul,
+.intelectual ul,
+.imobiliario ul,
+.medico ul {
+    margin: 10px;
 }
 
-.imobiliario li, .medico li {
-width: 45%;
+.personalidade li,
+.obrigacoes li,
+.intelectual li,
+.imobiliario li,
+.medico li {
+    padding: 0 20px;
+    white-space: nowrap;
+    position: relative;
 }
+
+.personalidade li::before,
+.obrigacoes li::before,
+.intelectual li::before,
+.imobiliario li::before,
+.medico li::before {
+    content: '⊹';
+    position: absolute;
+    left: -5px;
+    top: -1px;
+    font-weight: 500;
+}
+
 
 /*RODAPÉ*/
 
@@ -193,22 +202,16 @@ footer {
 }
 
 
-
-.section2 .indentacao {
-    margin: 15px 0 10px 0;
+.destaqueh2,
+.destaqueh3 {
+    border-bottom: 2px solid #B8860B;
+    padding: 0 10px 3px 10px;
+    border-left: 2px solid #B8860B;
+    border-radius: 0 0 0 8px;
 }
 
-.section2 span,
-.section3 h3 span,
-.section4 h2 span {
-    border-bottom: 3px solid #B8860B;
-    padding: 0 20px 5px 2px;
-}
-
-.section2 h2,
-.section3 h3,
-.section4 h2 {
-    padding-bottom: 10px;
+.indentacao {
+    text-indent: 0.5px;
 }
 
 .sidebar {
@@ -320,19 +323,15 @@ footer {
 
 .curriculo {
     margin-bottom: 20px;
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .profile-pic img {
-  filter: brightness( 110% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+    filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .profile-pic:hover img {
-  filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
-}
-
-.accordion-content.accordion-active ~ .profile-pic:hover img {
-  filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
 }
 
 /* Estilos do Accordion */
@@ -393,12 +392,13 @@ footer {
     max-height: 0;
 }
 
-#accordion-1 .accordion-content.accordion-active , #accordion-2 .accordion-content.accordion-active  {
+#accordion-1 .accordion-content.accordion-active,
+#accordion-2 .accordion-content.accordion-active {
     max-height: 600px;
 }
 
-#accordion-3 .accordion-content.accordion-active  {
-max-height: 2100px;
+#accordion-3 .accordion-content.accordion-active {
+    max-height: 2100px;
 }
 
 .accordion-content.accordion-active {
@@ -525,7 +525,8 @@ max-height: 2100px;
     }
 
     .accordion-item {
-        margin-left: 0;}
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 585px) {
@@ -544,8 +545,8 @@ max-height: 2100px;
     }
 
     #accordion-3 .accordion-content {
-  max-height: 2100px;
-}
+        max-height: 2100px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -558,6 +559,6 @@ max-height: 2100px;
     }
 
     #accordion-3 .accordion-content {
-  max-height: 2500px;
-}
+        max-height: 2500px;
+    }
 }
