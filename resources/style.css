@@ -296,7 +296,7 @@ footer {
 }
 
 .profile-pic img {
-  filter: brightness( 120% ) contrast( 120% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+  filter: brightness( 110% ) contrast( 110% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
 }
 
 .profile-pic:hover img {
