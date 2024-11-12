@@ -95,11 +95,12 @@ header {
     left: 0;
     width: 100%;
     z-index: 1;
-    padding: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+header .container {padding: 20px; }
 
 header h1 {
     margin: 0;
