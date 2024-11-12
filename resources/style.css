@@ -303,6 +303,10 @@ footer {
   filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
 }
 
+.accordion-content.accordion-active ~ .profile-pic:hover img {
+  filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+}
+
 /* Estilos do Accordion */
 .accordion-item {
     border: 1px solid #95a5a6;
