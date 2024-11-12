@@ -290,7 +290,10 @@ footer {
     float: left;
 }
 
-.curriculo {}
+.curriculo {
+    margin-bottom: 20px;
+  margin-top: 10px;
+}
 
 /* Estilos do Accordion */
 .accordion-item {
@@ -350,8 +353,15 @@ footer {
     max-height: 0;
 }
 
-.accordion-content.accordion-active {
+#accordion-1 .accordion-content, #accordion-2 .accordion-content {
     max-height: 600px;
+}
+
+#accordion-3 .accordion-content {
+max-height: 2100px;
+}
+
+.accordion-content.accordion-active {
     border-bottom: 2px solid #2f3640;
     border-right: 2px solid #2f3640;
 }
@@ -492,6 +502,10 @@ footer {
     .section5 {
         padding: 130px 30px 30px 30px;
     }
+
+    #accordion-3 .accordion-content {
+  max-height: 2100px;
+}
 }
 
 @media (max-width: 350px) {
@@ -502,4 +516,8 @@ footer {
     .section5 {
         padding: 150px 30px 30px 30px;
     }
+
+    #accordion-3 .accordion-content {
+  max-height: 2500px;
+}
 }
