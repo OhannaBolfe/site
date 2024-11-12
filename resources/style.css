@@ -126,13 +126,13 @@ header h1 {
 .imobiliario, 
 .medico {width: 45%;}
 
-.imobiliario ul {
+.imobiliario ul, .medico ul {
 display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.imobiliario li {
+.imobiliario li, .medico li {
 width: 45%;
 }
 
