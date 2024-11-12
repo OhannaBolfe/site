@@ -113,6 +113,18 @@ header h1 {
     float: left;
 }
 
+.areaatuacao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.personalidade, 
+.obrigacoes, 
+.imobiliario, 
+.medico, 
+.intelectual {width: 30%;}
+
 /*RODAPÉ*/
 
 footer {
