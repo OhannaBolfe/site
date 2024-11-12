@@ -125,6 +125,16 @@ header h1 {
 .medico, 
 .intelectual {width: 30%;}
 
+.imobiliario ul {
+display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imobiliario li {
+width: 30%;
+}
+
 /*RODAPÉ*/
 
 footer {
