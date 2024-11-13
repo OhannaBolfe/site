@@ -144,6 +144,27 @@ header h1 {
     font-weight: 500;
 }
 
+.areaatuacao {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.personalidade,
+.obrigacoes,
+.intelectual,
+.imobiliario,
+.medico {
+  width: 100%;
+}
+
+.dpersonalidade,
+.dobrigacoes,
+.dimobiliario,
+.dmedico {
+float: left;
+}
+
 
 /*RODAPÉ*/
 
