@@ -160,7 +160,6 @@ header h1 {
 .dpersonalidade,
 .dobrigacoes,
 .dimobiliario,
-.dmedico,
 .contratos,
 .consumidor,
 .responsabilidadecivil,
@@ -171,6 +170,9 @@ header h1 {
 float: left;
 }
 
+.dmedico {
+width: 66.66%;
+}
 
 /*RODAPÉ*/
 
