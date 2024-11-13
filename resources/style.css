@@ -128,7 +128,6 @@ header h1 {
 .imobiliario li,
 .medico li {
     padding: 0 20px;
-    white-space: nowrap;
     position: relative;
 }
 
