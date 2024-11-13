@@ -145,41 +145,25 @@ header h1 {
 
 .areaatuacao {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.personalidade, .obrigacoes, .intelectual, .imobiliario, .medico {
+  display: flex;
+}
+
+.personalidade {
   width: 100%;
 }
 
-.personalidade,
-.obrigacoes,
-.intelectual,
-.imobiliario,
-.medico {
-  width: 100%;
+.obrigacoes, .imobiliario {
+  width: 66.66%;
 }
 
-.intelectual {
-width: 33.33%;
-}
-
-.obrigacoes {
-width: 66.66%;
-}
-
-.dpersonalidade,
-.dobrigacoes,
-.dimobiliario,
-.contratos,
-.consumidor,
-.responsabilidadecivil,
-.propriedade,
-.familiasucessoes,
-.biodireito{
-    width: 33.33%;
-float: left;
-}
-
-.dmedico {
-width: 66.66%;
+.intelectual, .medico {
+  width: 33.33%;
 }
 
 /*RODAPÉ*/
