@@ -157,6 +157,14 @@ header h1 {
   width: 100%;
 }
 
+.intelectual {
+width: 33.33%;
+}
+
+.obrigacoes {
+width: 66.66%;
+}
+
 .dpersonalidade,
 .dobrigacoes,
 .dimobiliario,
