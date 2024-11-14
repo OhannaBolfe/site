@@ -162,7 +162,8 @@ header h1 {
 }
 
 .areaatuacao h4 {
-border-bottom: 1px dashed #7f8c8d;
+border-bottom: 3px solid #7f8c8d;
+  border-image: linear-gradient(to right, #bdc3c7, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
 }
 
 .areaatuacao ul {
@@ -249,7 +250,7 @@ footer {
 .destaqueh2, .destaqueh3 {
   padding: 0 10px 3px 1px;
   border-bottom: 3px solid #bdc3c7;
-  border-image: linear-gradient(to bottom, #B8860B00, #B8860B, #B8860B00) 20 stretch;
+  border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
 }
 
 .sidebar {
