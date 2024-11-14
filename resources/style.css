@@ -161,6 +161,10 @@ header h1 {
     flex-wrap: wrap;
 }
 
+.areaatuacao h4 {
+border-bottom: 1px dashed #7f8c8d;
+}
+
 .areaatuacao ul {
     display: flex;
     flex-wrap: wrap;
