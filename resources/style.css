@@ -161,7 +161,7 @@ header h1 {
 
 .personalidade, .imobiliario, .obrigacoes, .medico, .intelectual {
     border-radius: 7px;
-    padding: 0 10px 10px 10px;
+    padding: 0 10px 20px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 3px solid #bdc3c7;
