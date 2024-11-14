@@ -159,13 +159,20 @@ header h1 {
 }
 
 
-.personalidade, .imobiliario, .obrigacoes, .medico, .intelectual {
+.personalidade, .imobiliario, .obrigacoes, .medico {
     border-radius: 7px;
     padding: 0 10px 20px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 3px solid #bdc3c7;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #B8860B, #B8860B00, #B8860B00) 20 stretch;
+  }
+
+.intelectual {
+    border-radius: 7px;
+    padding: 0 10px 10px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
 /*RODAPÉ*/
