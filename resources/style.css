@@ -190,6 +190,12 @@ border-bottom: 3px solid #7f8c8d;
     margin-top: 10px;
   }
 
+.section2 h2, .section2 h3, .section3 h2, .section3 h3 {
+  padding: 0 10px 3px 1px;
+  border-bottom: 3px solid #bdc3c7;
+  border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
+}
+
 /*RODAPÉ*/
 
 footer {
@@ -247,12 +253,6 @@ footer {
 }
 
 .destaqueh2, .destaqueh3 {
-  padding: 0 10px 3px 1px;
-  border-bottom: 3px solid #bdc3c7;
-  border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
-}
-
-.section2 h2, .section2 h3, .section3 h2, .section3 h3 {
   padding: 0 10px 3px 1px;
   border-bottom: 3px solid #bdc3c7;
   border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
