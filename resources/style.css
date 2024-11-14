@@ -165,7 +165,7 @@ header h1 {
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 3px solid #bdc3c7;
-    border-image: linear-gradient(to right, #ecf0f1, #7f8c8d, #ecf0f1) 30 stretch;
+    border-image: linear-gradient(to right, #B8860B00, #B8860B00, #B8860B, #B8860B00, #B8860B00) 20 stretch;
   }
 
 /*RODAPÉ*/
