@@ -242,11 +242,10 @@ footer {
 }
 
 
-.destaqueh2,
-.destaqueh3 {
-padding: 5px 10px;
-  box-shadow: 2px 2px 1px #B8860B;
-  border-radius: 5px;
+.destaqueh2, .destaqueh3 {
+  padding: 0 10px 3px 1px;
+  border-bottom: 3px solid #bdc3c7;
+  border-image: linear-gradient(to bottom, #B8860B00, #B8860B, #B8860B00) 20 stretch;
 }
 
 .sidebar {
