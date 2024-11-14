@@ -234,14 +234,13 @@ footer {
 
 .destaqueh2,
 .destaqueh3 {
-    border-bottom: 2px solid #B8860B;
-    padding: 0 10px 3px 10px;
-    border-left: 2px solid #B8860B;
-    border-radius: 0 0 0 8px;
+padding: 5px 10px;
+  box-shadow: 2px 2px 1px #B8860B;
+  border-radius: 5px;
 }
 
 .indentacao {
-    text-indent: 0.5px;
+    text-indent: 20px;
 }
 
 .sidebar {
