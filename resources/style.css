@@ -20,6 +20,10 @@ em {
     margin: 50px 0 20px 0;
 }
 
+.bottom {
+    margin-bottom: 15px;
+}
+
 body {
     background-color: black;
     display: flex;
