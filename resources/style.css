@@ -27,7 +27,7 @@ em {
 .indentacao {
     text-indent: 20px;
     line-height: 1.7;
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 body {
@@ -48,7 +48,6 @@ h1 {
     font-weight: 700;
     font-style: normal;
     font-size: 20pt;
-    margin-bottom: 20px;
 }
 
 h2 {
@@ -57,7 +56,6 @@ h2 {
     font-weight: 700;
     font-style: normal;
     font-size: 18pt;
-    margin-bottom: 20px;
 }
 
 h3 {
@@ -66,7 +64,6 @@ h3 {
     font-weight: 700;
     font-style: normal;
     font-size: 16pt;
-    margin-bottom: 20px;
 }
 
 h4 {
@@ -162,8 +159,8 @@ header h1 {
 }
 
 .areaatuacao h4 {
-border-bottom: 3px solid #7f8c8d;
-    border-image: linear-gradient(to right, #B8860B00,#bdc3c7, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
+    border-bottom: 3px solid #7f8c8d;
+    border-image: linear-gradient(to right, #B8860B00, #bdc3c7, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
 }
 
 .areaatuacao ul {
@@ -174,26 +171,35 @@ border-bottom: 3px solid #7f8c8d;
 }
 
 
-.personalidade, .imobiliario, .obrigacoes, .medico {
+.personalidade,
+.imobiliario,
+.obrigacoes,
+.medico {
     border-radius: 7px;
     padding: 0 10px 20px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 3px solid #bdc3c7;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #B8860B00, #bdc3c7, #B8860B00) 20 stretch;
-  }
+}
 
 .intelectual {
     border-radius: 7px;
     padding: 0 10px 10px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-  }
+}
 
-.section2 h2, .section2 h3, .section3 h2, .section3 h3 {
-  padding: 0 10px 3px 1px;
-  border-bottom: 3px solid #bdc3c7;
-  border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
+.section2 h2,
+.section2 h3,
+.section3 h2,
+.section3 h3,
+.section4 h2,
+.section5 h2 {
+    padding: 0 10px 3px 1px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #bdc3c7;
+    border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
 }
 
 /*RODAPÉ*/
@@ -241,7 +247,7 @@ footer {
 
 .section2,
 .section4 {
-    background-color: #dcdde1;
+    background-color: #ecf0f1;
     color: black;
 }
 
@@ -252,11 +258,11 @@ footer {
     color: black;
 }
 
-.destaqueh2, .destaqueh3 {
+/*👉.destaqueh2, .destaqueh3 {
   padding: 0 10px 3px 1px;
   border-bottom: 3px solid #bdc3c7;
   border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
-}
+}👈*/
 
 .sidebar {
     position: fixed;
@@ -363,6 +369,7 @@ footer {
 .coluna {
     width: 30%;
     float: left;
+    text-align: center;
 }
 
 .curriculo {
@@ -380,21 +387,24 @@ footer {
 
 /* Estilos do Accordion */
 .accordion-item {
-    border: 1px solid #95a5a6;
+    /*👉border: 1px solid #95a5a6;👈*/
     margin-left: 30px;
     overflow: hidden;
     width: 65%;
     float: left;
+    background: #f5f6fa;
 }
 
 .accordion-header {
-    border-bottom: 2px solid #2f3640;
-    border-right: 2px solid #2f3640;
+    border-bottom: 2px solid #95a5a6;
+    border-right: 2px solid #95a5a6;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    background: #f5f6fa;
+    border-top-left-radius: 5px;
 }
 
 .listagem {
@@ -402,8 +412,18 @@ footer {
     padding-top: 0;
 }
 
+.listagem li::before {
+    content: '⊹';
+    margin-right: 5px;
+    font-weight: 550;
+    color: #d35400;
+}
+
 .accordion-header.accordion-active {
     border-bottom: none;
+    border-top: 1px solid #95a5a6;
+    border-left: 1px solid #95a5a6;
+    padding-bottom: 5px;
 }
 
 .accordion-title {
@@ -434,7 +454,14 @@ footer {
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     max-height: 0;
+    border-bottom-right-radius: 5px;
 }
+
+.accordion-active .accordion-title {
+    font-weight: 700;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 4px;
+  }
 
 #accordion-1 .accordion-content.accordion-active,
 #accordion-2 .accordion-content.accordion-active {
@@ -446,13 +473,22 @@ footer {
 }
 
 .accordion-content.accordion-active {
-    border-bottom: 2px solid #2f3640;
-    border-right: 2px solid #2f3640;
+    border-bottom: 2px solid #95a5a6;
+    border-right: 2px solid #95a5a6;
+    border-left: 1px solid #95a5a6;
 }
 
 /* Estilos para quando o item estiver ativo */
 .accordion-header.accordion-active .accordion-icon {
     transform: rotate(180deg);
+}
+
+.contato {
+    margin: 10px 0 5px 0;
+}
+
+.contato img {
+    margin-right: 5px;
 }
 
 /* Adaptação para dispositivos móveis */
