@@ -45,7 +45,7 @@ accordionItems.forEach(item => {
   const header = item.querySelector('.accordion-header');
   const content = item.querySelector('.accordion-content');
   const profileFigure = document.querySelector('.coluna figure');
-  const profileTxt = document.querySelector('.accordion-txt h3');
+  const profileTxt = document.querySelector('.accordion-txt');
 
   header.addEventListener('click', () => {
     // Alternar o estado do acordeão:
