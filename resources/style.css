@@ -496,6 +496,7 @@ border-bottom: 2px solid #E4A817;
 
 .contato img {
     margin-right: 5px;
+    vertical-align: middle;
 }
 
 /* Adaptação para dispositivos móveis */
