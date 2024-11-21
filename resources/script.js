@@ -59,7 +59,7 @@ accordionItems.forEach(item => {
 
     // Adicionar ou remover a classe 'accordion-txt'
     if (profileTxt) {
-      profileTxt.classList.toggle('.effect', content.classList.contains('accordion-active'));
+      profileTxt.classList.toggle('effect', content.classList.contains('accordion-active'));
     }
   });
 });
