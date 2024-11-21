@@ -421,8 +421,8 @@ footer {
 
 .accordion-header.accordion-active {
     border-bottom: none;
-    border-top: 1px solid #95a5a6;
-    border-left: 1px solid #95a5a6;
+    border-top: 1px solid #E4A817;
+    border-left: 1px solid #E4A817;
     padding-bottom: 5px;
 }
 
@@ -459,7 +459,8 @@ footer {
 
 .accordion-active .accordion-title {
     font-weight: 700;
-    border-bottom: 2px solid #f39c12;
+border-bottom: 2px solid #E4A817;
+  border-image: linear-gradient(to right, #E4A817, #B8860B00) 20 stretch;
     padding-bottom: 4px;
   }
 
@@ -473,9 +474,9 @@ footer {
 }
 
 .accordion-content.accordion-active {
-    border-bottom: 2px solid #95a5a6;
-    border-right: 2px solid #95a5a6;
-    border-left: 1px solid #95a5a6;
+    border-bottom: 2px solid #E4A817;
+    border-right: 2px solid #E4A817;
+    border-left: 1px solid #E4A817;
 }
 
 /* Estilos para quando o item estiver ativo */
