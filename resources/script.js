@@ -44,7 +44,8 @@ const accordionItems = document.querySelectorAll('.accordion-item');
 accordionItems.forEach(item => {
   const header = item.querySelector('.accordion-header');
   const content = item.querySelector('.accordion-content');
-  const profileFigure = document.querySelector('.profile-pic figure'); // Seleciona o <figure> fora do acordeão
+  const profileFigure = document.querySelector('.coluna figure');
+  const profileTxt = document.querySelector('.accordion-txt h3');
 
   header.addEventListener('click', () => {
     // Alternar o estado do acordeão:
@@ -54,6 +55,11 @@ accordionItems.forEach(item => {
     // Adicionar ou remover a classe 'accordion-img' no <figure>
     if (profileFigure) {
       profileFigure.classList.toggle('accordion-img', content.classList.contains('accordion-active'));
+    }
+
+    // Adicionar ou remover a classe 'accordion-txt'
+    if (profileTxt) {
+      profileTxt.classList.toggle('.effect', content.classList.contains('accordion-active'));
     }
   });
 });
