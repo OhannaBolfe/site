@@ -24,15 +24,3 @@ document.addEventListener('DOMContentLoaded', function() {
     copyrightElement.setAttribute('content', `Ohanna Schmitt Bolfe, ${currentYear}`);
     yearElement.textContent = currentYear; 
 });
-
-function curriculo_event(button) {
-  const complementoElement = button.nextElementSibling;
-  complementoElement.style.visibility = "visible";
-}
-
-document.addEventListener('click', function(event) {
-    const complementoElements = document.querySelectorAll('.complemento');
-    if (!event.target.closest('.curriculo')) {
-    complementoElements.forEach(el => el.style.visibility = 'hidden');
-    }
-});
