@@ -25,16 +25,14 @@ document.addEventListener('DOMContentLoaded', function() {
     yearElement.textContent = currentYear; 
 });
 
-function curriculo_event() {
-  const complementoElement = document.getElementById("complemento");
+function curriculo_event(button) {
+  const complementoElement = button.nextElementSibling;
   complementoElement.style.visibility = "visible";
 }
 
 document.addEventListener('click', function(event) {
-  const complementoElement = document.getElementById('complemento');
-  const buttonElement = document.querySelector('button');
-
-    if (event.target !== complementoElement && event.target !== buttonElement) {
-        complementoElement.style.visibility = "hidden";
+    const complementoElements = document.querySelectorAll('.complemento');
+    if (!event.target.closest('.curriculo')) {
+    complementoElements.forEach(el => el.style.visibility = 'hidden');
     }
 });
