@@ -2,19 +2,19 @@ const toggleButton = document.querySelector('.toggle-button');
 const sidebar = document.querySelector('.sidebar');
 const mainContent = document.querySelector('.main-content');
 
-const sections = document.querySelectorAll('.section');
-const headerHeight = document.querySelector('header').offsetHeight;
+toggleButton.addEventListener('click', () => {
+  sidebar.classList.toggle('active');
+  mainContent.classList.toggle('active');
+  toggleButton.setAttribute('aria-expanded', sidebar.classList.contains('active'));
+});
 
-document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
-
-const scrollToSection = (sectionId) => {
-  const section = document.querySelector(sectionId);
-  const sectionTop = section.getBoundingClientRect().top - headerHeight;
-  window.scrollTo({
-    top: sectionTop,
-    behavior: 'smooth'
-  });
-};
+document.addEventListener('click', (event) => {
+  if (!sidebar.contains(event.target) && !toggleButton.contains(event.target)) {
+    sidebar.classList.remove('active');
+    mainContent.classList.remove('active');
+    toggleButton.setAttribute('aria-expanded', false);
+  }
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
