@@ -397,6 +397,10 @@ padding: 5px 0 15px 15px;
     margin-left: 0 !important;
 }
 
+.listagemextra .listagem {
+  margin-left: 0;
+}
+
 .effect {
     border-bottom: 2px solid #E4A817;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #E4A817, #E4A817, #E4A817, #B8860B00, #B8860B00) 20 stretch;
