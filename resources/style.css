@@ -382,8 +382,6 @@ padding: 5px 0 15px 15px;
 .listagemextra li::before {
     content: none;
     margin-right: 0;
-    font-weight: 60;
-    color: #d35400;
     margin-left: 0;
 }
 
