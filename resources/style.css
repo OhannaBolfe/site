@@ -17,11 +17,7 @@ em {
 
 .centro img {
     max-width: 80%;
-    margin: 50px 0 20px 0;
-}
-
-.bottom {
-    margin-bottom: 15px;
+    margin: 20px 0 10px 0;
 }
 
 .indentacao {
@@ -87,15 +83,6 @@ li {
     font-size: 12pt;
     min-width: 16px;
 }
-
-/*👉li {    
-    content: '⊹';
-    position: absolute;
-    left: -5px;
-    top: -1px;
-}👈*/
-
-/*CABEÇALHO*/
 
 header {
     background-color: #23282f;
@@ -202,10 +189,7 @@ header h1 {
     border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
 }
 
-/*RODAPÉ*/
-
 footer {
-    /*👉    box-shadow: -2px -3px 0px #c0392b;👈*/
     background-color: rgb(0, 0, 20);
     color: #ecf0f1;
     text-align: center;
@@ -215,8 +199,6 @@ footer {
     z-index: 1;
     padding: 12px 0;
 }
-
-/*MIOLO*/
 
 .container {
     max-width: 1080px;
@@ -312,15 +294,6 @@ text-shadow: 0px 1px 1px #B8860B;
     text-decoration: underline;
 }
 
-.main-content {
-    transition: margin-left 0.3s ease-in-out;
-    padding-left: 270px;
-    /* Espaço para a sidebar */
-}
-
-.main-content.active {
-    margin-left: 0;
-}
 
 .toggle-button {
     background-color: transparent;
@@ -374,9 +347,6 @@ text-shadow: 0px 1px 1px #B8860B;
 .curriculo {
     margin-bottom: 20px;
     margin-top: 10px;
-}
-
-.curriculo {
     filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
   }
 
@@ -384,15 +354,6 @@ text-shadow: 0px 1px 1px #B8860B;
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
   }
 
-/* Estilos do Accordion */
-.accordion-item {
-    /*👉border: 1px solid #95a5a6;👈*/
-    margin-left: 30px;
-    overflow: hidden;
-    width: 65%;
-    float: left;
-    background: #f5f6fa;
-}
 
 .coluna_r {
     margin-left: 20px;
@@ -423,11 +384,6 @@ padding: 5px 0 15px 15px;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #E4A817, #E4A817, #E4A817, #B8860B00, #B8860B00) 20 stretch;
 }
 
-.accordion-content {
-    font-weight: 400;
-    line-height: 1.7;
-}
-
 .contato {
     margin: 10px 0 5px 0;
 }
@@ -437,17 +393,17 @@ padding: 5px 0 15px 15px;
     vertical-align: middle;
 }
 
-/* Adaptação para dispositivos móveis */
 @media (max-width: 1080px) {
-
-    header .container {}
-
     header {
         max-width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 0;
     }
-
-    .container header {
-        padding: 0;
+    
+    header h1 {
+        padding-left: 0;
+        font-size: 25px;
     }
 
     .material-symbols-outlined {
@@ -455,7 +411,7 @@ padding: 5px 0 15px 15px;
     }
 
     .centro img {
-        margin: 20px 0 10px 0;
+      margin: 20px 0 10px 0;
     }
 
     .curriculo {
@@ -463,23 +419,7 @@ padding: 5px 0 15px 15px;
         margin: auto;
         margin-bottom: 50px;
     }
-
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 15px 0;
-    }
-
-    header h1 {
-        padding-left: 0;
-        font-size: 25px;
-    }
-
-    .navegador {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
+    
     .sidebar {
         max-width: 100%;
     }
@@ -508,25 +448,6 @@ padding: 5px 0 15px 15px;
         content: none;
     }
 
-    .main-content {
-        transition: margin-left 0.3s ease-in-out;
-        padding-left: 0;
-    }
-
-    .main-content.active {
-        margin-left: 250px;
-    }
-
-    .toggle-button {
-        position: relative;
-        top: auto;
-        left: auto;
-        padding: 0;
-        padding-right: 5px;
-        border: none;
-        cursor: pointer;
-        z-index: 10;
-    }
 
     .imgdesktop {
         display: none;
@@ -545,9 +466,12 @@ padding: 5px 0 15px 15px;
     }
 
     .coluna,
-    .accordion-item {
+    .coluna_r,
+    .curriculo {
         width: 100%;
         float: none;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
@@ -564,10 +488,6 @@ padding: 5px 0 15px 15px;
     .section4,
     .section5 {
         padding: 130px 30px 30px 30px;
-    }
-
-    #accordion-3 .accordion-content {
-        max-height: 2100px;
     }
 }
 
