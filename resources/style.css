@@ -259,9 +259,8 @@ footer {
 }
 
 .destaquecurriculo {
-  padding: 0 10px 3px 1px;
-  border-bottom: 3px solid #bdc3c7;
-  border-image: linear-gradient(to right, #B8860B, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
+text-shadow: 0px 1px 1px #B8860B;
+  text-decoration: #B8860B underline;
 }
 
 .sidebar {
@@ -406,17 +405,15 @@ footer {
 }
 
 .listagem {
-    padding: 20px;
-    padding-top: 0;
-    padding-left: 15px;
-    letter-spacing: -0.2px;
-    word-spacing: -0.8px;
+padding: 5px 0 15px 15px;
+  letter-spacing: -0.2px;
+  word-spacing: -1px;
 }
 
 .listagem li::before {
     content: '⊹';
     margin-right: 5px;
-    font-weight: 550;
+    font-weight: 60;
     color: #d35400;
     margin-left: -16px;
 }
