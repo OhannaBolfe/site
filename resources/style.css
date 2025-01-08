@@ -383,6 +383,18 @@ padding: 5px 0 15px 15px;
     margin-top: 7px;
 }
 
+.listagemextra .listagem {
+  margin-left: 0;
+}
+
+.listagemextra .listagem::before {
+    content: '⊹';
+    margin-right: 5px;
+    font-weight: 60;
+    color: #d35400;
+    margin-left: -16px;
+}
+
 .effect {
     border-bottom: 2px solid #E4A817;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #E4A817, #E4A817, #E4A817, #B8860B00, #B8860B00) 20 stretch;
