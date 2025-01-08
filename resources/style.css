@@ -379,6 +379,14 @@ padding: 5px 0 15px 15px;
     margin-left: -16px;
 }
 
+.listagemextra li::before {
+    content: none;
+    margin-right: 0;
+    font-weight: 60;
+    color: #d35400;
+    margin-left: 0;
+}
+
 .effect {
     border-bottom: 2px solid #E4A817;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #E4A817, #E4A817, #E4A817, #B8860B00, #B8860B00) 20 stretch;
