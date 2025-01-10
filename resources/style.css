@@ -26,10 +26,10 @@ em {
 }
 
 .section1 .indentacao {
-  line-height: 2;
+/*line-height: 2;*/
   text-indent: 30px;
   font-size: 13pt;
-  margin: 40px 0;
+  margin-bottom: 20px;
   word-spacing: 9px;
   text-align: justify;
   letter-spacing: 1px;
