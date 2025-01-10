@@ -23,7 +23,17 @@ em {
 .indentacao {
     text-indent: 20px;
     line-height: 1.7;
-    margin-bottom: 5px;
+}
+
+.section1 .indentacao {
+  line-height: 2;
+  text-indent: 30px;
+  font-size: 13pt;
+  margin: 40px 0;
+  word-spacing: 9px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 
 body {
@@ -173,9 +183,9 @@ header h1 {
 
 .section1 .profile-pic {
   float: left;
-  margin-right: 30px;
-/*  border-right: 5px groove #B8860B;
-  border-bottom: 5px groove #B8860B;*/
+  margin-right: 50px;
+  border-right: 5px groove #B8860B;
+  border-bottom: 5px groove #B8860B;
 }
 
 .section2 h2,
