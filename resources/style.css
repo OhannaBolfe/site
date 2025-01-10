@@ -174,8 +174,8 @@ header h1 {
 .section1 .profile-pic {
   float: left;
   margin-right: 30px;
-  border-right: 5px groove #B8860B;
-  border-bottom: 5px groove #B8860B;
+/*  border-right: 5px groove #B8860B;
+  border-bottom: 5px groove #B8860B;*/
 }
 
 .section2 h2,
