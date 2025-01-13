@@ -186,6 +186,7 @@ header h1 {
   margin-right: 50px;
   /*border-right: 5px groove #B8860B;
   border-bottom: 5px groove #B8860B;*/
+    filter: brightness(100%) contrast(90%) saturate(95%) blur(0px) hue-rotate(0deg);
 }
 
 .section2 h2,
