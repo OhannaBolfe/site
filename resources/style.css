@@ -429,6 +429,21 @@ padding: 5px 0 15px 15px;
     vertical-align: middle;
 }
 
+.colunacontato {
+  float: left;
+  width: 30%;
+  margin-right: 20px;
+}
+
+.sobrecontato {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+mapa {
+    
+}
+
 @media (max-width: 1080px) {
     header {
         max-width: 100%;
