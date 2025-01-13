@@ -440,8 +440,11 @@ padding: 5px 0 15px 15px;
   margin-bottom: 20px;
 }
 
-mapa {
-    
+.mapa {
+  float: left;
+  width: 67%;
+  box-shadow: 2px 2px 2px #B8860B;
+  border: 1px solid #B8860B;
 }
 
 @media (max-width: 1080px) {
