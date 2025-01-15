@@ -486,27 +486,30 @@ padding: 5px 0 15px 15px;
 padding: 2px 0 13px 0;
 border-image: linear-gradient(to right, #23282f, #ecf0f1, #23282f) 10 stretch;
 border-bottom: 2px solid #23282f;
+}
+
+ .sidebar li {
+text-align: center;
+float: none;
 margin-bottom: 10px;
 margin-top: 3px;
-}
- .sidebar li {
-    text-align: center;
-    float: none;
   }
 
-.sidebar li:first-child a{
+.sidebar li:first-child{
 margin-top: 0;
+}
+
+.sidebar li:first-child a{
 padding-top: 0;
+}
+
+.sidebar li:last-child{
+margin-bottom: 0;
 }
 
 .sidebar li:last-child a{
 border: none;
-margin-bottom: 0;
 padding-bottom: 1px;
-}
-
-.sidebar li a,  .sidebar li:last-child a {
-border: none;
 }
     
     .imgdesktop {
