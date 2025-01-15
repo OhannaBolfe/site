@@ -505,7 +505,7 @@ margin-bottom: 0;
 padding-bottom: 1px;
 }
 
-.sidebar li a,  .sidebar li:last-child {
+.sidebar li a,  .sidebar li:last-child a {
 border: none;
 }
     
