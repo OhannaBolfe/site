@@ -281,26 +281,29 @@ text-shadow: 0px 1px 1px #B8860B;
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 5px 15px;
+  list-style: none;
+  padding-bottom: 15px;
 }
 
 .sidebar li {
-    float: left;
-    padding: 10px;
+  float: left;
 }
 
-.sidebar li a {
-    padding: 5px 20px;
-    color: #ecf0f1;
-    text-decoration: none;
+sidebar li a {
+  padding: 5px 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  border-image: linear-gradient(to bottom, #23282f, #ecf0f1, #23282f) 0.5 stretch;
+  border-left: 2px solid #23282f;
+}
+
+.sidebar li:first-child a {
+  border-left: none;
 }
 
 .sidebar li:hover {
     font-weight: 600;
-    text-decoration: underline;
 }
-
 
 .toggle-button {
     background-color: transparent;
