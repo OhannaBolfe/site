@@ -478,22 +478,7 @@ padding: 5px 0 15px 15px;
 
     .sidebar ul {
         width: 100%;
-        padding: 15px 0;
     }
-
- .sidebar li {
-    padding: 2px 0 13px 0;
-    text-align: center;
-    float: none;
-    margin-bottom: 10px;
-    margin-top: 3px;
-    border-image: linear-gradient(to right, #23282f, #ecf0f1, #23282f) 10 stretch;
-    border-bottom: 2px solid #23282f;
-  }
-
-.sidebar li: a,  .sidebar li:last-child {
-border: none;
-}
     
     .imgdesktop {
         display: none;
@@ -522,6 +507,25 @@ border: none;
 }
 
 @media (max-width: 585px) {
+
+    .sidebar ul {
+        width: 100%;
+        padding: 15px 0;
+    }
+
+ .sidebar li {
+    padding: 2px 0 13px 0;
+    text-align: center;
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    border-image: linear-gradient(to right, #23282f, #ecf0f1, #23282f) 10 stretch;
+    border-bottom: 2px solid #23282f;
+  }
+
+.sidebar li: a,  .sidebar li:last-child {
+border: none;
+}
 
     header .container {
         display: flex;
