@@ -486,6 +486,10 @@ border: none;
         padding: 15px 0;
     }
 
+.sidebar li {
+width: 90%;
+}
+
 .sidebar li a {
 width: 90%;
 padding: 2px 0 13px 0;
