@@ -17,8 +17,8 @@ em {
 }
 
 .centro img {
-    max-width: 80%;
-    margin: 20px 0 10px 0;
+/*👉    max-width: 80%;
+    margin: 20px 0 10px 0;👈*/
 }
 
 .indentacao {
@@ -458,15 +458,25 @@ padding: 5px 0 15px 15px;
         font-size: 25px;
     }
 
-    .centro img {
+/*👉    .centro img {
       margin: 20px 0 10px 0;
-    }
+    }👈*/
 
     .curriculo {
         max-width: 90%;
         margin: auto;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
+
+    .section4 h2 {
+        margin-bottom: 30px;
+      }
+
+      .colunacontato {
+        float: none;
+        width: 100%;
+        margin-right: 0;
+      }
     
     .sidebar {
         max-width: 100%;
@@ -486,15 +496,11 @@ border: none;
         padding: 15px 0;
     }
 
-.sidebar li {
-width: 90%;
-}
 
 .sidebar li a {
-width: 90%;
+width: 100%;
 padding: 2px 0 13px 0;
-border-image: linear-gradient(to right, #23282f, #ecf0f1, #23282f) 10 stretch;
-border-bottom: 2px solid #23282f;
+display: block;
 }
 
  .sidebar li {
@@ -502,6 +508,8 @@ text-align: center;
 float: none;
 margin-bottom: 10px;
 margin-top: 3px;
+border-image: linear-gradient(to right, #23282f, #ecf0f1, #23282f) 10 stretch;
+border-bottom: 2px solid #23282f;
   }
 
 .sidebar li:first-child{
@@ -514,10 +522,10 @@ padding-top: 0;
 
 .sidebar li:last-child{
 margin-bottom: 0;
+border: none;
 }
 
 .sidebar li:last-child a{
-border: none;
 padding-bottom: 1px;
 }
     
@@ -533,10 +541,6 @@ padding-bottom: 1px;
         font-size: 10pt;
     }
 
-    .centro img {
-        max-width: 80%;
-    }
-
     .coluna,
     .coluna_r,
     .curriculo {
@@ -545,9 +549,50 @@ padding-bottom: 1px;
         margin-left: 0;
         margin-right: 0;
     }
+
+    .section1 .profile-pic {
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .section1 .indentacao {
+        text-align: left;
+    text-indent: 10px;
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-size: 12pt;
+    }
+
+    .section2 h2, .section2 h3, .section3 h2, .section3 h3, .section4 h2, .section5 h2 {
+        border-image: linear-gradient(to right, #B8860B, #B8860B00) 5 stretch;
+      }
+
+      .areaatuacao h4 {
+        border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 5 stretch;
+      }
+
+      .personalidade, .imobiliario, .obrigacoes, .medico, .intelectual {
+        border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 10 stretch;
+      }
+
+      .mapa {
+          float: none;
+          width: 100%;
+          margin-top: 30px;
+      }
 }
 
 @media (max-width: 585px) {
+
+    .areaatuacao ul {
+      display: block;
+    }
+
+    .sobrecontato {
+      line-height: 1.3;
+    }
 
     header .container {
         display: flex;
