@@ -90,13 +90,12 @@ li {
 }
 
 header {
-    background-color: #d9d9d9;
-    color: #23282f;
-    /*text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;*/
-    width: 100%;
+background-color: #d9d9d9;
+color: #23282f;
+width: 100%;
+border-bottom: 1px solid #d9d9d9;
+  border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 30 stretch;
+}
 }
 
 header .container1 {
@@ -240,7 +239,7 @@ footer {
 .section2,
 .section4,
 .section5 {
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 .section2,
