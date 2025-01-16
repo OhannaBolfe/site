@@ -230,7 +230,7 @@ background-color: #d9d9d9;
 color: #23282f;
 width: 100%;
 border-top: 1px solid #d9d9d9;
-border-image: linear-gradient(to top, #23282f, #d9d9d9) 30 stretch;
+border-image: linear-gradient(to top, #23282f, #d9d9d9) 5 stretch;
 padding: 1px 0 4px 0;
 }
 
