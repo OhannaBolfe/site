@@ -12,8 +12,18 @@ em {
     margin-right: 1px;
 }
 
+figure {
+  display: table;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 figcaption::before {
-    content: '⊹';
+    content: '■';
     margin-right: 5px;
     font-weight: 60;
     color: #d35400;
@@ -21,6 +31,8 @@ figcaption::before {
 
 figcaption {
   text-align: left;
+  display: table-caption;
+  caption-side: bottom;
 }
 
 .centro {
@@ -190,6 +202,10 @@ padding: 20px 0;
     border-image: linear-gradient(to right, #B8860B00, #B8860B00, #bdc3c7, #bdc3c7) 20 stretch;
 }
 
+.section1 .centro {
+  padding-top: 10px;
+}
+
 .section1 .profile-pic {
     float: left;
     margin-right: 50px;
@@ -338,7 +354,7 @@ footer {
 }
 
 .listagem li::before {
-    content: '⊹';
+    content: '■';
     margin-right: 5px;
     font-weight: 60;
     color: #d35400;
@@ -351,7 +367,7 @@ footer {
 }
 
 .listagemextra .listagem li::before {
-    content: '⊹';
+    content: '■';
     margin-right: 5px;
     font-weight: 60;
     color: #d35400;
