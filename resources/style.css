@@ -33,11 +33,15 @@ figcaption::before {
     line-height: 1.7;
 }
 
-.section1 .indentacao {
+.apresentacao {
+    
+}
+
+.apresentacao .indentacao {
     /*line-height: 2;*/
     text-indent: 30px;
     font-size: 13pt;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     word-spacing: 9px;
     text-align: justify;
     letter-spacing: 1px;
