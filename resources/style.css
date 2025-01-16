@@ -432,6 +432,7 @@ footer p {
     .toggle-button {
     display: hidden;
     }
+
     header {
         max-width: 100%;
         /*padding: 15px 0;*/
@@ -441,7 +442,6 @@ footer p {
         font-size: 25px;
     }
 
-    /*👉    .centro img {  margin: 20px 0 10px 0;}👈*/
     .curriculo {
         max-width: 90%;
         margin: auto;
@@ -464,10 +464,6 @@ footer p {
 
     .imgmobile {
         display: table;
-    }
-
-    footer p {
-        font-size: 10pt;
     }
 
     .coluna,
