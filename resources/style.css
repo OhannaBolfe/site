@@ -405,6 +405,7 @@ footer p {
 .contato img {
     margin-right: 5px;
     vertical-align: middle;
+    display: inline;
 }
 
 .colunacontato {
