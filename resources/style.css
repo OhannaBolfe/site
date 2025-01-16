@@ -25,8 +25,7 @@ img {
 figcaption::before {
     content: '■';
     margin-right: 5px;
-    font-weight: 60;
-    color: #d35400;
+    color: rgb(0, 0, 20);
 }
 
 figcaption {
@@ -226,14 +225,17 @@ padding: 20px 0;
 }
 
 footer {
-    background-color: rgb(0, 0, 20);
-    color: #ecf0f1;
-    text-align: center;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    padding: 12px 0;
+text-align: right;
+background-color: #d9d9d9;
+color: #23282f;
+width: 100%;
+border-top: 1px solid #d9d9d9;
+border-image: linear-gradient(to top, #23282f, #d9d9d9) 30 stretch;
+padding: 1px 0 4px 0;
+}
+
+footer p {
+  font-size: 10pt;
 }
 
 .container {
@@ -357,7 +359,7 @@ footer {
     content: '■';
     margin-right: 5px;
     font-weight: 60;
-    color: #d35400;
+    color: rgb(0, 0, 20);
     margin-left: -16px;
 }
 
