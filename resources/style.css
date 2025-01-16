@@ -43,12 +43,12 @@ figcaption {
 .apresentacao .indentacao {
     /*line-height: 2;*/
     text-indent: 30px;
-    font-size: 13pt;
-    margin-bottom: 30px;
+/*    font-size: 13pt;*/
+    margin-bottom: 10px;
     word-spacing: 9px;
     text-align: justify;
-    letter-spacing: 1px;
-    font-weight: 400;
+/*    letter-spacing: 1px;
+    font-weight: 400;*/
 }
 
 body {
