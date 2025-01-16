@@ -182,8 +182,8 @@ padding: 20px 0;
 }
 
 .areaatuacao h4 {
-    border-bottom: 3px solid #7f8c8d;
-    border-image: linear-gradient(to right, #bdc3c7, #bdc3c7, #B8860B00, #B8860B00, #B8860B00) 20 stretch;
+border-bottom: 2px solid #7f8c8d;
+border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 80 stretch;
 }
 
 .areaatuacao ul {
@@ -203,8 +203,8 @@ padding: 20px 0;
     padding: 0 10px 20px 10px;
     margin-bottom: 10px;
     margin-top: 10px;
-    border-bottom: 3px solid #bdc3c7;
-    border-image: linear-gradient(to right, #B8860B00, #B8860B00, #bdc3c7, #bdc3c7) 20 stretch;
+    border-bottom: 2px solid #bdc3c7;
+    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 80 stretch;
 }
 
 .section1 .centro {
