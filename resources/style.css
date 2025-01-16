@@ -362,15 +362,11 @@ footer p {
 }
 
 .listagem li::before {
-content: '';
-  margin-right: 5px;
-  color: rgb(0, 0, 20);
-  background: black;
-  width: 6pt;
-  height: 6pt;
-  display: inline-block;
-  margin-bottom: 1pt;
-  border-radius: 2px;
+    content: '•';
+    position: absolute;
+    left: -0;
+    top: -1px;
+    font-weight: 500;
 }
 
 .listagemextra {
@@ -379,15 +375,11 @@ content: '';
 }
 
 .listagemextra .listagem li::before {
-content: '';
-  margin-right: 5px;
-  color: rgb(0, 0, 20);
-  background: black;
-  width: 6pt;
-  height: 6pt;
-  display: inline-block;
-  margin-bottom: 1pt;
-  border-radius: 2px;
+    content: '•';
+    position: absolute;
+    left: -0;
+    top: -1px;
+    font-weight: 500;
 }
 
 .listagemextra::before {
