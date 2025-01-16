@@ -17,7 +17,10 @@ figcaption::before {
     margin-right: 5px;
     font-weight: 60;
     color: #d35400;
-    margin-left: -16px;
+}
+
+figcaption {
+  text-align: left;
 }
 
 .centro {
@@ -34,7 +37,7 @@ figcaption::before {
 }
 
 .apresentacao {
-    
+    display: block;
 }
 
 .apresentacao .indentacao {
