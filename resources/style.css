@@ -103,7 +103,20 @@ header .container1 {
     padding: 9px 12px 13px 12px;
 }
 
+.container2 li a {
+  padding: 0 20px;
+}
+
+.container2 li:first-child a {
+  padding-left:0;
+}
+
+.container2 li:last-child a {
+  padding-right:0;
+}
+
 header .container2 {
+    float: left;
     padding: 9px 12px 13px 12px;
 }
 
