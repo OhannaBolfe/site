@@ -293,6 +293,7 @@ footer {
 }
 
 .toggle-button {
+    display: none;
     background-color: transparent;
     border: none;
     padding: 0;
@@ -439,6 +440,9 @@ footer {
 }
 
 @media (max-width: 1080px) {
+    .toggle-button {
+    display: hidden;
+    }
     header {
         max-width: 100%;
         flex-direction: column;
