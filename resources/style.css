@@ -562,6 +562,10 @@ footer p {
         border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 5 stretch;
     }
 
+    .colunalista p {
+  margin-left: 9px;
+}
+
     .personalidade,
     .imobiliario,
     .obrigacoes,
