@@ -12,6 +12,14 @@ em {
     margin-right: 1px;
 }
 
+figcaption::before {
+    content: '⊹';
+    margin-right: 5px;
+    font-weight: 60;
+    color: #d35400;
+    margin-left: -16px;
+}
+
 .centro {
     text-align: center;
 }
