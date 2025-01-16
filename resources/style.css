@@ -429,6 +429,9 @@ footer p {
 }
 
 @media (max-width: 1080px) {
+ .container2 li{
+padding: 0 30px;
+}
     .toggle-button {
     display: hidden;
     }
