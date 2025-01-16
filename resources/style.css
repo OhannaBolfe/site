@@ -23,9 +23,15 @@ img {
 }
 
 figcaption::before {
-    content: '■';
-    margin-right: 5px;
-    color: rgb(0, 0, 20);
+content: '';
+  margin-right: 5px;
+  color: rgb(0, 0, 20);
+  background: black;
+  width: 6pt;
+  height: 6pt;
+  display: inline-block;
+  margin-bottom: 1pt;
+  border-radius: 2px;
 }
 
 figcaption {
