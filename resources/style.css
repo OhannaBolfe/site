@@ -308,7 +308,7 @@ footer {
 }
 
 .imgdesktop {
-    display: block;
+    display: table;
 }
 
 .imgmobile {
@@ -511,7 +511,7 @@ footer {
     }
 
     .imgmobile {
-        display: block;
+        display: table;
     }
 
     footer p {
