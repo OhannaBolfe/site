@@ -183,7 +183,7 @@ padding: 20px 0;
 
 .areaatuacao h4 {
 border-bottom: 2px solid #7f8c8d;
-border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 80 stretch;
+border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
 }
 
 .areaatuacao ul {
@@ -204,7 +204,7 @@ border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 80 stretch;
     margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 2px solid #bdc3c7;
-    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 80 stretch;
+    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 1 stretch;
 }
 
 .section1 .centro {
