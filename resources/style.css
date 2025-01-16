@@ -486,7 +486,6 @@ footer p {
     }
 
     .section1 .indentacao {
-        text-align: left;
         text-indent: 10px;
         word-spacing: 0;
         letter-spacing: 0;
@@ -501,30 +500,5 @@ footer p {
 @media (max-width: 585px) {
     .areaatuacao ul {
         display: block;
-    }
-
-    .sobrecontato {
-        
-    }
-
-    header .container {
-        
-    }
-
-    .section1,
-    .section2,
-    .section4,
-    .section5 {
-        
-    }
-}
-
-@media (max-width: 350px) {
-
-    .section1,
-    .section2,
-    .section4,
-    .section5 {
-        
     }
 }
