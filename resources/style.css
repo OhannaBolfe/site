@@ -105,6 +105,7 @@ header {
 
 header .container {
     padding: 9px 12px 13px 12px;
+    width: 100%;
 }
 
 header h1 {
@@ -247,7 +248,7 @@ footer {
 
 .sidebar {
     position: fixed;
-    top: -200px;
+    top: 61px;
     background-color: #23282f;
     transition: left 1s ease-in-out, opacity 1s ease-in;
     z-index: 10;
@@ -293,7 +294,7 @@ footer {
 }
 
 .toggle-button {
-    display: none;
+    display: none !important;
     background-color: transparent;
     border: none;
     padding: 0;
