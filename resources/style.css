@@ -363,10 +363,9 @@ footer p {
 
 .listagem li::before {
     content: '•';
-    position: absolute;
-    left: -0;
-    top: -1px;
     font-weight: 500;
+    margin-right: 5px;
+    margin-left: -16px;
 }
 
 .listagemextra {
@@ -376,10 +375,9 @@ footer p {
 
 .listagemextra .listagem li::before {
     content: '•';
-    position: absolute;
-    left: -0;
-    top: -1px;
     font-weight: 500;
+    margin-right: 5px;
+    margin-left: -16px;
 }
 
 .listagemextra::before {
