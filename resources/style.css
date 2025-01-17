@@ -18,7 +18,7 @@ flex-direction: row;
 justify-content: space-around;
 }
 
-.section1 .profile-pic {
+.section1 .profile-picsocias{
     filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
     float: left;
   margin-right: 40px;
