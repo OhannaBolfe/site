@@ -435,6 +435,10 @@ padding: 3px 0 5px 0;
     align-items: center;
 }
 
+.container2 li {
+padding:0;
+}
+
     header {
         max-width: 100%;
         /*padding: 15px 0;*/
