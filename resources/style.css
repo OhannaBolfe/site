@@ -18,10 +18,14 @@ flex-direction: row;
 justify-content: space-around;
 }
 
-.section1 .profile-picsocias{
+.profile-picsocias{
     filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
     float: left;
   margin-right: 40px;
+}
+
+.profile-picpredio {
+    margin-top: 30px;
 }
 
 figure {
@@ -225,8 +229,6 @@ font-weight: 550;
 .section5 h2 {
     padding: 0 10px 3px 1px;
    margin-bottom: 20px;
- /*    border-bottom: 2px solid #B8860B;
-    border-image: linear-gradient(to right, #B8860B, #B8860B00) 1 stretch;*/
     text-decoration: 2px #B8860B underline;
 }
 
@@ -277,8 +279,7 @@ padding: 3px 0 5px 0;
 }
 
 .destaquecurriculo {
-/*    text-shadow: 0px 1px 1px #B8860B;*/
-    text-decoration: #B8860B underline double;
+    text-decoration: #b7b7b7 underline double;
 }
 
 .imgdesktop {
@@ -295,11 +296,11 @@ padding: 3px 0 5px 0;
 }
 
 .curriculo figcaption::before {
-  color: #B8860B !important;
+  color: #b7b7b7#B8860B !important;
 }
 
 .curriculo .profileimg {
-  border: 3px double #B8860B;
+  border: 3px double #b7b7b7;
 }
 
 .accordion-txt p{
@@ -366,11 +367,6 @@ margin-left: 40px;
 .listagemextra .listagem {
     margin-left: 0;
     padding-bottom: 0;
-}
-
-.effect {
-    border-bottom: 2px solid #E4A817;
-    border-image: linear-gradient(to right, #B8860B00, #B8860B00, #E4A817, #E4A817, #E4A817, #B8860B00, #B8860B00) 20 stretch;
 }
 
 .contato {
