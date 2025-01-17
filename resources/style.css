@@ -429,6 +429,11 @@ padding: 3px 0 5px 0;
 }
 
 @media (max-width: 1080px) {
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
     header {
         max-width: 100%;
