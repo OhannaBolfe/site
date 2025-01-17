@@ -429,6 +429,9 @@ padding: 3px 0 5px 0;
 }
 
 @media (max-width: 1080px) {
+.container2{
+text-align: center;
+}
 
 .container2 li a{
 padding:0 10px;
