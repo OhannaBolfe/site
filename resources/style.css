@@ -23,7 +23,6 @@ justify-content: space-around;
     float: left;
   margin-right: 40px;
 }
-}
 
 figure {
   display: table;
@@ -36,12 +35,9 @@ img {
 }
 
 figcaption::before {
-content: '';
+content: '❙❘';
   margin-right: 5px;
   color: rgb(0, 0, 20);
-  background: black;
-  width: 9pt;
-  height: 7pt;
   display: inline-block;
   margin-bottom: 1pt;
   border-radius: 2px;
@@ -282,7 +278,7 @@ padding: 3px 0 5px 0;
 
 .destaquecurriculo {
 /*    text-shadow: 0px 1px 1px #B8860B;*/
-    text-decoration: #B8860B underline;
+    text-decoration: #B8860B underline double;
 }
 
 .imgdesktop {
@@ -303,8 +299,7 @@ padding: 3px 0 5px 0;
 }
 
 .curriculo .profileimg {
-  box-shadow: 2px 2px 0px #B8860B;
-  border: 1px solid #B8860B;
+  border: 3px double #B8860B;
 }
 
 .accordion-txt p{
