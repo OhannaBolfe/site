@@ -227,7 +227,7 @@ border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
 .section5 h2 {
     padding: 0 10px 3px 1px;
     margin-bottom: 20px;
-    border-bottom: 2px solid ##B8860B;
+    border-bottom: 2px solid #B8860B;
     border-image: linear-gradient(to right, #B8860B, #B8860B00) 1 stretch;
 }
 
