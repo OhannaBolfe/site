@@ -194,6 +194,7 @@ padding: 20px 0;
 .areaatuacao h4 {
 border-bottom: 2px solid #7f8c8d;
 border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
+font-weight: 550;
 }
 
 .areaatuacao ul {
@@ -209,11 +210,11 @@ border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
 .medico,
 .intelectual {
     border-radius: 7px;
-    padding: 0 10px 20px 10px;
-    margin-bottom: 10px;
+    padding: 0 10px 10px 10px;
+/*    margin-bottom: 10px;
     margin-top: 10px;
     border-bottom: 2px solid #bdc3c7;
-    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 1 stretch;
+    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 1 stretch;*/
 }
 
 .section1 .centro {
@@ -227,9 +228,10 @@ border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
 .section4 h2,
 .section5 h2 {
     padding: 0 10px 3px 1px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #B8860B;
-    border-image: linear-gradient(to right, #B8860B, #B8860B00) 1 stretch;
+   margin-bottom: 20px;
+ /*    border-bottom: 2px solid #B8860B;
+    border-image: linear-gradient(to right, #B8860B, #B8860B00) 1 stretch;*/
+    text-decoration: 2px #B8860B underline;
 }
 
 footer {
