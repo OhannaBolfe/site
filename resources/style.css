@@ -12,6 +12,16 @@ em {
     margin-right: 1px;
 }
 
+.profile-pic {
+display: flex; 
+flex-direction: row; 
+justify-content: space-around;
+}
+
+.section1 .profile-pic {
+    filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
+}
+
 figure {
   display: table;
 }
@@ -42,10 +52,6 @@ figcaption {
 
 .centro {
     text-align: center;
-}
-
-.centro img {
-    /*👉    max-width: 80%;margin: 20px 0 10px 0;👈*/
 }
 
 .indentacao {
@@ -209,15 +215,6 @@ border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;
 
 .section1 .centro {
   padding-top: 10px;
-}
-
-.profile-pic {
-display: flex; 
-flex-direction: row; 
-justify-content: space-around;
-}
-.section1 .profile-pic {
-    filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
 }
 
 .section2 h2,
