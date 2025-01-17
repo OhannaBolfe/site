@@ -281,40 +281,8 @@ padding: 3px 0 5px 0;
 }
 
 .destaquecurriculo {
-    text-shadow: 0px 1px 1px #B8860B;
+/*    text-shadow: 0px 1px 1px #B8860B;*/
     text-decoration: #B8860B underline;
-}
-
-.toggle-button {
-    display: none !important;
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #ecf0f1;
-}
-
-.toggle-button.active {
-    background-color: transparent;
-}
-
-.material-symbols-outlined {
-    margin-right: 10px;
-    font-size: 37px !important;
-    z-index: 11;
-    font-family: 'Material Symbols Outlined';
-    font-weight: normal;
-    font-style: normal;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-    -moz-font-feature-settings: 'liga';
-    -moz-osx-font-smoothing: grayscale;
-    float: left;
 }
 
 .imgdesktop {
@@ -330,28 +298,31 @@ padding: 3px 0 5px 0;
     flex-direction: column;
 }
 
+.accordion-txt {
+line-height: 2;
+}
+
+.coluna_r {
+margin-left: 40px;
+  width: 66%;
+}
+
 .coluna {
     width: 30%;
-    float: left;
-    text-align: center;
 }
 
 .curriculo {
     margin-bottom: 20px;
     margin-top: 10px;
     filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .curriculo:focus-visible,
 .curriculo:hover {
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
-}
-
-
-.coluna_r {
-    margin-left: 20px;
-    width: 68%;
-    float: left;
 }
 
 .listagem ul {
@@ -360,13 +331,13 @@ padding: 3px 0 5px 0;
 
 .listagem {
     padding: 5px 0 15px 15px;
-    word-spacing: -1px;
+    line-height: 1.7;
 }
 
 .listagem li::before {
     content: '•';
     font-weight: 500;
-    margin-right: 5px;
+    margin-right: 10px;
     margin-left: -16px;
 }
 
