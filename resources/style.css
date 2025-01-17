@@ -28,6 +28,11 @@ justify-content: space-around;
     margin-top: 30px;
 }
 
+.logo {
+padding-top:10px;
+padding-bottom:10px;
+}
+
 figure {
   display: table;
 }
