@@ -40,8 +40,8 @@ content: '';
   margin-right: 5px;
   color: rgb(0, 0, 20);
   background: black;
-  width: 6pt;
-  height: 6pt;
+  width: 9pt;
+  height: 7pt;
   display: inline-block;
   margin-bottom: 1pt;
   border-radius: 2px;
@@ -296,6 +296,15 @@ padding: 3px 0 5px 0;
 .curriculocontainer {
     display: flex;
     flex-direction: column;
+}
+
+.curriculo figcaption::before {
+  background: #B8860B !important;
+}
+
+.curriculo .profileimg {
+  box-shadow: 2px 2px 0px #B8860B;
+  border: 1px solid #B8860B;
 }
 
 .accordion-txt p{
