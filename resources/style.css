@@ -295,7 +295,7 @@ padding: 3px 0 5px 0;
 }
 
 .curriculo figcaption::before {
-  background: #B8860B !important;
+  color: #B8860B !important;
 }
 
 .curriculo .profileimg {
