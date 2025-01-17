@@ -432,6 +432,7 @@ padding: 3px 0 5px 0;
 .container2 li{
 font-size:11pt;
 word-spacing: 1px;
+letter-spacing: -1px;
 }
 
 .container2 li a{
