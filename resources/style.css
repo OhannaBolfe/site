@@ -279,7 +279,7 @@ padding: 3px 0 5px 0;
 }
 
 .destaquecurriculo {
-    text-decoration: #b7b7b7 underline double;
+    text-decoration: #717171 underline double;
 }
 
 .imgdesktop {
@@ -342,8 +342,9 @@ margin-left: 40px;
 .listagem li::before {
     content: '▪';
     font-weight: 500;
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     margin-left: -16px;
+    color: #a4a4a4;
 }
 
 .listagemextra {
