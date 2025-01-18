@@ -285,7 +285,7 @@ padding: 3px 0 5px 0;
 }
 
 .destaquecurriculo {
-    text-decoration: #717171 underline double;
+    /*text-decoration: #717171 underline double;*/
 }
 
 .imgdesktop {
@@ -417,7 +417,7 @@ letter-spacing: -1px;
 }
 
 .destaquecurriculo {
-    text-decoration: #717171 underline solid;
+   /* text-decoration: #717171 underline solid;*/
 }
 
 .container2 li a{
