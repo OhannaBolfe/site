@@ -53,8 +53,9 @@ content: '❙❘';
 
 figcaption {
   text-align: left;
-  display: table-caption;
+/*  display: table-caption;*/
   caption-side: bottom;
+display: none;
 }
 
 .centro {
