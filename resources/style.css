@@ -416,6 +416,10 @@ word-spacing: 1px;
 letter-spacing: -1px;
 }
 
+.destaquecurriculo {
+    text-decoration: #717171 underline solid;
+}
+
 .container2 li a{
 padding:0 7px;
 }
