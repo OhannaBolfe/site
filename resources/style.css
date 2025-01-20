@@ -287,13 +287,13 @@ padding: 3px 0 5px 0;
     display: none;
 }
 
-.curriculocontainer {
+.curriculo {
     display: flex;
     flex-direction: row;
 justify-content: space-around;
 }
 
-.curriculocontainer2 {
+.curriculo2 {
     flex-direction: row-reverse;
 }
 
@@ -318,9 +318,6 @@ margin-left: 40px;
     margin-bottom: 20px;
     margin-top: 10px;
     filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
-    display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
 }
 
 .curriculo:focus-visible,
