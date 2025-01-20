@@ -439,10 +439,13 @@ container2 li a {
     .coluna_r,
     .curriculo {
         width: 100%;
-        float: none;
         margin-left: 0;
         margin-right: 0;
     }
+
+.coluna_r h3 {
+margin-top: 7px;
+}
 
     .section1 .profile-pic {
         float: none;
