@@ -464,6 +464,10 @@ margin-top: 7px;
     .colunalista p {
   margin-left: 9px;
 }
+
+.profile-picpredio {
+    margin-top: 30px;
+}
 }
 
 @media (max-width: 400px) {
