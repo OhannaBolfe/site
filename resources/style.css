@@ -161,28 +161,16 @@ padding: 5px 0 10px 0;
   position: relative;
 }
 
-.personalidade ul,
-.obrigacoes ul,
-.intelectual ul,
-.imobiliario ul,
-.medico ul {
+.section3 ul {
     margin: 10px;
 }
 
-.personalidade li,
-.obrigacoes li,
-.intelectual li,
-.imobiliario li,
-.medico li {
+.section3 li {
     padding: 0 20px;
     position: relative;
 }
 
-.personalidade li::before,
-.obrigacoes li::before,
-.intelectual li::before,
-.imobiliario li::before,
-.medico li::before {
+.section3 li::before {
     content: '▪';
     position: absolute;
     left: -0;
