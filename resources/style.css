@@ -22,6 +22,12 @@ justify-content: space-around;
   margin-right: 40px;
 margin-bottom: 20px;
     margin-top: 10px;
+filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
+.profile-picpredio {
+    margin-top: 30px;
+filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .profile-picpredio:focus-visible,
@@ -36,9 +42,6 @@ margin-bottom: 20px;
   transition: filter 0.5s;
 }
 
-.profile-picpredio {
-    margin-top: 30px;
-}
 
 .logo {
 
