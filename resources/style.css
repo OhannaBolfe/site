@@ -145,13 +145,6 @@ padding: 5px 0 10px 0;
   position: relative;
 }
 
-.container2 li::after {
- content: '|';
-    font-weight: 400;
-    margin-left: 5px;
-color: #a4a4a4;
-}
-
 .personalidade ul,
 .obrigacoes ul,
 .intelectual ul,
