@@ -133,14 +133,6 @@ border-bottom: 3px solid #d9d9d9;
 border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
 }
 
-.container2 li a {
-  padding: 0 20px;
-}
-
-.container2 li {
-  float: left;
-}
-
 .container2 li:first-child a {
   padding-left:0;
 }
@@ -150,14 +142,22 @@ border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
 }
 
 header .container2 {
-padding-bottom: 33px;
-padding-top: 5px;
+padding: 5px 0 10px 0;
 }
 
-header h1 {
-padding: 20px 0;
+.container2 li a {
+  padding: 0 20px;
 }
 
+.container2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.container2 li {
+  position: relative;
+}
 
 .personalidade ul,
 .obrigacoes ul,
@@ -239,6 +239,8 @@ font-weight: 550;
 .destaqueh2, .destaqueh3 {
 border-bottom: 2px solid #d9d9d9;
 border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
+font-weight: 600;
+
 }
 
 footer {
@@ -288,7 +290,7 @@ padding: 3px 0 5px 0;
 }
 
 .destaquecurriculo {
-    /*text-decoration: #717171 underline double;*/
+    font-weight: 400;
 }
 
 .imgdesktop {
