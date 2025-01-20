@@ -323,6 +323,7 @@ margin-left: 40px;
 .curriculo:focus-visible,
 .curriculo:hover {
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+  transition: filter 0.3s;
 }
 
 .listagem {
