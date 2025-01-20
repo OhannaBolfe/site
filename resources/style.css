@@ -289,7 +289,12 @@ padding: 3px 0 5px 0;
 
 .curriculocontainer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+.curriculocontainer2 {
+    flex-direction: row-reverse;
 }
 
 .curriculo .profileimg {
