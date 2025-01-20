@@ -23,7 +23,7 @@ justify-content: center;
 }
 
 .juliana ul {
-float: left;
+text-align: left;
 }
 
 .profile-pic {
