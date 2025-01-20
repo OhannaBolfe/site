@@ -12,6 +12,16 @@ em {
     margin-right: 1px;
 }
 
+.juliana {
+text-align: right;
+}
+
+.curriculo .coluna_r{
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+}
+
 .profile-pic {
 display: flex; 
 flex-direction: row; 
