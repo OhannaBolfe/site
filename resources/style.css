@@ -19,23 +19,20 @@ justify-content: space-around;
 }
 
 .profile-picsocias{
-    filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
-    float: left;
   margin-right: 40px;
-}
-
-.profile-picsocias,
-.profile-picpredio {
-    margin-bottom: 20px;
+margin-bottom: 20px;
     margin-top: 10px;
-    filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
-.profile-picsocias:focus-visible,
-.profile-picsocias:hover,
 .profile-picpredio:focus-visible,
 .profile-picpredio:hover {
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+  transition: filter 0.5s;
+}
+
+.profile-picsocias:focus-visible,
+.profile-picsocias:hover {
+    filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
   transition: filter 0.5s;
 }
 
