@@ -139,7 +139,7 @@ padding: 5px 0 10px 0;
 }
 
 .container2 li a {
-  padding: 0 20px;
+  padding: 0 10px;
 }
 
 .container2 li:first-child a {
@@ -158,6 +158,12 @@ padding: 5px 0 10px 0;
 
 .container2 li {
   position: relative;
+}
+
+.container2 li::before {
+ content: '▪';
+    font-weight: 400;
+    margin-left: 5px;
 }
 
 .personalidade ul,
@@ -413,27 +419,10 @@ margin-left: 40px;
 }
 
 @media (max-width: 1080px) {
-.container2 li{
-font-size:11pt;
-word-spacing: 1px;
-letter-spacing: -1px;
-}
-
-.destaquecurriculo {
-   /* text-decoration: #717171 underline solid;*/
-}
-
-.container2 li a{
-padding:0 7px;
-}
 
     header {
         max-width: 100%;
         /*padding: 15px 0;*/
-    }
-
-    header h1 {
-        font-size: 25px;
     }
 
     .curriculo {
