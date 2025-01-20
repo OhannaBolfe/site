@@ -404,8 +404,7 @@ margin-left: 40px;
 .mapa {
     /*  float: left;*/
     max-width: 100%;
-    box-shadow: 2px 2px 2px #b7b7b7;
-    border: 1px solid #b7b7b7;
+    border: 2px double #b7b7b7;
 }
 
 .mapa iframe {
