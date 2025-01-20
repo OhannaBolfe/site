@@ -23,6 +23,7 @@ justify-content: space-around;
 margin-bottom: 20px;
     margin-top: 10px;
 filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+width: 100%;
 }
 
 .profile-picpredio {
@@ -43,8 +44,8 @@ filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 
-.logo {
-
+.apresentacao {
+width: 100%;
 }
 
 figure {
