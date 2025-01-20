@@ -292,10 +292,6 @@ padding: 3px 0 5px 0;
     flex-direction: column;
 }
 
-.curriculo figcaption::before {
-  color: #b7b7b7 !important;
-}
-
 .curriculo .profileimg {
   border: 3px double #b7b7b7;
 }
