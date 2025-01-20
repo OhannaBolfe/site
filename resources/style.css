@@ -146,7 +146,7 @@ padding: 5px 0 10px 0;
 }
 
 .container2 li::after {
- content: '▪';
+ content: '|';
     font-weight: 400;
     margin-left: 5px;
 color: #a4a4a4;
@@ -407,6 +407,10 @@ margin-left: 40px;
 @media (max-width: 1080px) {
 header .container2 {
 padding: 5px 0 10px 10px;
+}
+
+container2 li a {
+  padding: 0 5px;
 }
 
     header {
