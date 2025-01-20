@@ -339,20 +339,17 @@ margin-left: 40px;
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
 }
 
-.listagem ul {
-    margin-left: 15px;
-}
-
 .listagem {
     padding: 5px 0 15px 15px;
     line-height: 1.7;
+    margin-left: 5px;
 }
 
 .listagem li::before {
     content: '▪';
     font-weight: 500;
-    /*margin-right: 10px;*/
-    margin-left: -16px;
+    margin-right: 10px;
+    margin-left: -25px;
     color: #a4a4a4;
 }
 
