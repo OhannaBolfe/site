@@ -273,6 +273,12 @@ padding: 3px 0 5px 0;
     overflow-x: hidden;
 }
 
+.section1 .container{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+
 .section1,
 .section2,
 .section4,
