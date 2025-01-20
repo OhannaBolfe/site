@@ -238,9 +238,9 @@ font-weight: 550;
 }
 
 .destaqueh2, .destaqueh3 {
-border-bottom: 2px solid #d9d9d9;
-border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
-font-weight: 600;
+/*border-bottom: 2px solid #d9d9d9;
+border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;*/
+font-weight: 700;
 
 }
 
