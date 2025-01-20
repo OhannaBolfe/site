@@ -42,21 +42,6 @@ img {
   display: block;
 }
 
-figcaption::before {
-content: '❙❘';
-  margin-right: 5px;
-  color: rgb(0, 0, 20);
-  display: inline-block;
-  margin-bottom: 1pt;
-  border-radius: 2px;
-}
-
-/*figcaption {
-  text-align: left;
- display: table-caption;
-  caption-side: bottom;
-}*/
-
 .centro {
     text-align: center;
 }
@@ -160,10 +145,11 @@ padding: 5px 0 10px 0;
   position: relative;
 }
 
-.container2 li::before {
+.container2 li::after {
  content: '▪';
     font-weight: 400;
     margin-left: 5px;
+color: #a4a4a4;
 }
 
 .personalidade ul,
