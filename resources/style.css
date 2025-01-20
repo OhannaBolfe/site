@@ -22,6 +22,10 @@ flex-direction: column;
 justify-content: center;
 }
 
+.juliana ul {
+float: left;
+}
+
 .profile-pic {
 display: flex; 
 flex-direction: row; 
