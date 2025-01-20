@@ -410,6 +410,7 @@ container2 li a {
     }
 
     .curriculo {
+display: block;
         max-width: 90%;
         margin: auto;
         margin-bottom: 20px;
