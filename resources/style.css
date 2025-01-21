@@ -469,6 +469,11 @@ margin-bottom: 20px;
 
 .container2 li{
 width: 50%;
+text-align: center !important; 
+}
+
+.container2 li a {
+padding: 0 10px !important;
 }
 
 p {
