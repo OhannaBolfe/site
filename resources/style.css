@@ -324,6 +324,10 @@ margin-left: 0 !important;
   margin-right: 20px;
 }
 
+.juliana.listagem {
+padding: 15px 50px 15px 0;
+}
+
 .destaquecurriculo {
 font-weight: 400;
 }
@@ -347,12 +351,12 @@ border-bottom: 3px double #b7b7b7;
 width: 70%;
 }
 
-.destaquecurriculo, .accordion-txt-span {
-margin-left: 20px;
-}
-
 .coluna {
 width: 30%;
+}
+
+.destaquecurriculo, .accordion-txt-span {
+margin-left: 20px;
 }
 
 .curriculo {
