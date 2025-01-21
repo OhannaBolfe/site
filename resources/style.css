@@ -22,6 +22,12 @@ flex-direction: column;
 justify-content: center;
 }
 
+.apresentacao {
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+}
+
 .juliana ul {
 text-align: left;
 }
