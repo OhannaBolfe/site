@@ -490,16 +490,15 @@ padding: 0 10px !important;
 margin-top: 30px;
 }
 
-.container{
+.section1,
+.section2,
+.section4,
+.section5 {
 margin-bottom: 20px;
 }
 
-footer {
+footer p {
 text-align: center !important;
-}
-
-p {
-/*text-align: left !important;*/
 }
     
 }
