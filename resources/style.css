@@ -330,8 +330,7 @@ flex-direction: row-reverse !important;
 border: 3px double #b7b7b7;
 }
 
-.accordion-txt p{
-line-height: 2;
+.coluna_r p{
 padding-bottom: 10px;
 border-top: 3px double #b7b7b7;
 }
