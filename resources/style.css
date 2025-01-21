@@ -193,12 +193,6 @@ color: black;
 
 /* PÁGINA  1*/
 
-.section1 .container {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-}
-
 .apresentacao .indentacao {
 line-height: 2;
 text-indent: 30px;
@@ -257,10 +251,10 @@ width: 100%;
 }
 
 .areaatuacao {
-display: flex;
+/*display: flex;
 flex-direction: row;
 max-width: 100%;
-flex-wrap: wrap;
+flex-wrap: wrap;*/
 }
 
 .areaatuacao h4 {
@@ -272,6 +266,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: flex-start;
 line-height: 1.7;
+width: 100%;
 }
 
 .personalidade,
@@ -467,6 +462,13 @@ margin-bottom: 20px;
 }*/
 
 @media (max-width: 400px) {
+
+.section1 .container,
+.areaatuacao ul,
+.curriculo .coluna_r,
+.curriculo {
+display: block;
+}
 
 .container2 li{
 width: 50%;
