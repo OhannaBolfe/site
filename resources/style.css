@@ -468,9 +468,8 @@ margin-bottom: 20px;
 @media (max-width: 400px) {
 
 .container2 li{
-word-spacing: -1px;
-letter-spacing: -1px;
- }
+width; 50%;
+}
 
 p {
 text-align: left !important;
