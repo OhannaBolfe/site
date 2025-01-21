@@ -83,7 +83,7 @@ display: none;
 /* HEADER */
 
 .ativo {
-  text-shadow: 1px 0px 1px red;
+  text-shadow: 1px 1px 0 red;
 }
 
 header {
