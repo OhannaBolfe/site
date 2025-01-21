@@ -26,7 +26,7 @@ justify-content: center;
 text-align: left;
 }
 
-.profile-pic {
+.section1 .container {
 display: flex; 
 flex-direction: row; 
 justify-content: space-around;
@@ -425,15 +425,6 @@ padding: 5px 20px 10px 20px;
 
 container2 li a {
   padding: 0 5px 0 0;
-}
-
-.profile-pic {
-display: block;
-}
-
-.profile-picsocias,
-.apresentacao {
-width: 100%;
 }
 
     header {
