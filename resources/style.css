@@ -97,8 +97,6 @@ text-align: justify;
 
 body {
     background-color: black;
-    display: flex;
-    flex-direction: column;
     color: #ecf0f1;
     overflow-x: hidden;
     font-family: "Noto Sans JP", sans-serif;
@@ -433,6 +431,11 @@ container2 li a {
 display: block;
 }
 
+.profile-picsocias,
+.apresentacao {
+width: 100%;
+}
+
     header {
         max-width: 100%;
         /*padding: 15px 0;*/
@@ -476,25 +479,12 @@ margin-top: 7px;
 }
 
     .section1 .profile-pic {
-        float: none;
-        text-align: center;
         margin: 0;
         margin-bottom: 20px;
     }
 
-    .section1 .indentacao {
-        text-indent: 10px;
-        word-spacing: 0;
-        letter-spacing: 0;
-        font-size: 12pt;
-    }
-
     .colunalista p {
   margin-left: 9px;
-}
-
-.profile-picpredio {
-    padding-top: 20px;
 }
 }
 
