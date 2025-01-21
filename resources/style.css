@@ -509,9 +509,12 @@ text-align: center !important;
 padding: 15px 0 15px 50px;
 }
 
-.juliana .destaquecurriculo, 
-.juliana .accordion-txt-span {
-margin-left: 20px;
+.destaquecurriculo, 
+.accordion-txt-span {
+margin: 0 !important;
+}
+.destaquecurriculo, .accordion-txt-span {
+margin: 0 !important;
 }
     
 }
