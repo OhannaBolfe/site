@@ -465,17 +465,16 @@ margin-bottom: 20px;
 .profile-picsocias,
 .apresentacao,
 .coluna_r,
-.coluna,
-.juliana .coluna_r {
-width: 100%;
+.coluna {
+width: 100% !important;
 }
 
 .section1 .container,
 .areaatuacao ul,
-.curriculo .coluna_r,
-.curriculo,
-.juliana .coluna_r {
-display: block;
+.coluna, 
+.coluna_r,
+.curriculo {
+display: block !important;
 }
 
 .container2 li{
