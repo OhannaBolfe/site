@@ -45,6 +45,11 @@ width: 100%;
 filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
+.profile-picpredio {
+width: 100%;
+max-width: 100%;
+}
+
 .profile-picpredio:focus-visible,
 .profile-picpredio:hover {
     filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
@@ -57,9 +62,9 @@ filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
   transition: filter 0.5s;
 }
 
-
+.profile-picsocias,
 .apresentacao {
-width: 100%;
+width: 50%;
 }
 
 figure {
@@ -82,19 +87,12 @@ img {
 text-align: justify;
 }
 
-.apresentacao {
-    display: block;
-}
-
 .apresentacao .indentacao {
-    /*line-height: 2;*/
+    line-height: 2;
     text-indent: 30px;
-/*    font-size: 13pt;*/
     margin-bottom: 10px;
     word-spacing: 9px;
     text-align: justify;
-/*    letter-spacing: 1px;
-    font-weight: 400;*/
 }
 
 body {
