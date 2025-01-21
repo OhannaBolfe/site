@@ -465,7 +465,8 @@ margin-bottom: 20px;
 .profile-picsocias,
 .apresentacao,
 .coluna_r,
-.coluna {
+.coluna,
+.juliana .coluna_r {
 width: 100%;
 }
 
