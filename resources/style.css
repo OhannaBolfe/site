@@ -463,12 +463,18 @@ margin-bottom: 20px;
 
 @media (max-width: 400px) {
 
+.profile-picsocias,
+.apresentacao,
+.coluna_r,
+.coluna {
+width: 100%;
+}
+
 .section1 .container,
 .areaatuacao ul,
 .curriculo .coluna_r,
 .curriculo {
 display: block;
-width: 100%;
 }
 
 .container2 li{
