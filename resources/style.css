@@ -419,6 +419,10 @@ margin-left: 40px;
 }
 
 @media (max-width: 1080px) {
+.section1 .container {
+display: block;
+}
+
 header .container2 {
 padding: 5px 20px 10px 20px;
 }
