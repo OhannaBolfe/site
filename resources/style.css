@@ -490,8 +490,12 @@ padding: 0 10px !important;
 margin-top: 30px;
 }
 
-.section {
+.container{
 margin-bottom: 20px;
+}
+
+footer {
+text-align: center !important;
 }
 
 p {
