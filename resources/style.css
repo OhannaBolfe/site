@@ -91,8 +91,7 @@ border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 30 stretch;
 }
 
 header .container1 {
-border-bottom: 3px solid #d9d9d9;
-border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
+border-bottom: 3px double #b7b7b7;
 }
 
 header .container2 {
@@ -338,12 +337,16 @@ border: 3px double #b7b7b7;
 
 .coluna_r p{
 padding-bottom: 10px;
-border-bottom: 1px solid #b7b7b7;
+border-bottom: 3px double #b7b7b7;
 }
 
 .coluna_r {
-margin-left: 40px;
-width: 66%;
+/*margin-left: 40px;*/
+width: 70%;
+}
+
+.destaquecurriculo, .accordion-txt-span {
+margin-left: 20px;
 }
 
 .coluna {
@@ -363,9 +366,8 @@ transition: filter 0.5s;
 }
 
 .listagem {
-padding: 15px 0 15px 15px;
+padding: 15px 0 15px 50px;
 line-height: 1.7;
-margin-left: 5px;
 }
 
 .listagem li::before {
