@@ -247,6 +247,10 @@ transition: filter 0.5s;
 
 /* PÁGINA  2*/
 
+.colunalista {
+width: 100%;
+}
+
 .areaatuacao {
 display: flex;
 flex-direction: row;
@@ -309,6 +313,7 @@ text-align: left;
 
 .juliana {
 text-align: right;
+flex-direction: row-reverse;
 }
 
 .destaquecurriculo {
@@ -319,10 +324,6 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-}
-
-.curriculo2 {
-flex-direction: row-reverse;
 }
 
 .curriculo .profileimg {
