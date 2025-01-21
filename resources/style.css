@@ -490,6 +490,10 @@ padding: 0 10px !important;
 margin-top: 30px;
 }
 
+.section {
+margin-bottom: 20px;
+}
+
 p {
 /*text-align: left !important;*/
 }
