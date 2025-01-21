@@ -311,11 +311,6 @@ justify-content: center;
 text-align: left;
 }
 
-.juliana {
-text-align: right;
-flex-direction: row-reverse;
-}
-
 .destaquecurriculo {
 font-weight: 400;
 }
@@ -324,6 +319,11 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+}
+
+.juliana {
+text-align: right;
+flex-direction: row-reverse !important;
 }
 
 .curriculo .profileimg {
@@ -337,6 +337,11 @@ line-height: 2;
 .coluna_r {
 margin-left: 40px;
 width: 66%;
+}
+
+.juliana .coluna_r {
+  margin-right: 40px;
+  width: 66%;
 }
 
 .coluna {
