@@ -308,8 +308,18 @@ flex-direction: column;
 justify-content: center;
 }
 
-.juliana ul {
-text-align: left;
+.juliana {
+flex-direction: row-reverse !important;
+}
+
+.juliana p, .juliana h3 {
+text-align: right !important;
+}
+
+.juliana .coluna_r {
+margin-right: 40px;
+width: 66%;
+margin-left: 0 !important;
 }
 
 .destaquecurriculo {
@@ -320,11 +330,6 @@ font-weight: 400;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-}
-
-.juliana {
-text-align: right;
-flex-direction: row-reverse !important;
 }
 
 .curriculo .profileimg {
@@ -339,12 +344,6 @@ border-bottom: 1px solid #b7b7b7;
 .coluna_r {
 margin-left: 40px;
 width: 66%;
-}
-
-.juliana .coluna_r {
-margin-right: 40px;
-width: 66%;
-margin-left: 0 !important;
 }
 
 .coluna {
