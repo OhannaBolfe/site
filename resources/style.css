@@ -1,8 +1,6 @@
 /* BÁSICO */
 
 body {
-background-color: black;
-color: #ecf0f1;
 overflow-x: hidden;
 font-family: "Noto Sans JP", sans-serif;
 font-optical-sizing: auto;
@@ -487,18 +485,18 @@ padding: 10px 10px 0 10px !important;
 }
 
 header .container2 {
-padding: 0 0 10px 0 !important;;
+padding: 0 0 10px 0 !important;
 }
 
 .apresentacao {
-margin-top: 30px;
+padding-top: 30px !important;
 }
 
 .section1 .container,
 .section2 .container,
 .section4 .container,
-.section5. container{
-padding-bottom: 20px;
+.section5 .container {
+padding-bottom: 20px !important;
 }
 
 footer p {
