@@ -494,27 +494,8 @@ padding: 0 0 10px 0 !important;
 padding-top: 30px !important;
 }
 
-.section1 .container,
-.section2 .container,
-.section4 .container,
-.section5 .container {
-padding-bottom: 20px !important;
-}
-
 footer p {
 text-align: center !important;
 }
 
-.juliana .listagem {
-padding: 15px 0 15px 50px;
-}
-
-.destaquecurriculo, 
-.accordion-txt-span {
-margin: 0 !important;
-}
-.destaquecurriculo, .accordion-txt-span {
-margin: 0 !important;
-}
-    
 }
