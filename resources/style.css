@@ -6,6 +6,8 @@ font-family: "Noto Sans JP", sans-serif;
 font-optical-sizing: auto;
 font-weight: 300;
 font-style: normal;
+background-color: #ecf0f1;
+color: black;
 }
 
 h1 {
@@ -185,8 +187,7 @@ padding-top: 40px;
 .section3,
 .section4, 
 .section5 {
-background-color: #ecf0f1;
-color: black;
+
 }
 
 /* PÁGINA  1*/
@@ -471,7 +472,8 @@ width: 100%;
 .section1 .container,
 .areaatuacao ul,
 .curriculo .coluna_r,
-.curriculo {
+.curriculo,
+.juliana .coluna_r {
 display: block;
 }
 
@@ -501,6 +503,15 @@ padding-bottom: 20px !important;
 
 footer p {
 text-align: center !important;
+}
+
+.juliana .listagem {
+padding: 15px 0 15px 50px;
+}
+
+.juliana .destaquecurriculo, 
+.juliana .accordion-txt-span {
+margin-left: 20px;
 }
     
 }
