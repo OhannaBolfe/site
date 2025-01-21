@@ -1,142 +1,133 @@
-html {
-    height: 100%;
-    scrollbar-width: none;
-}
-
-strong {
-    font-weight: 500;
-}
-
-em {
-    font-style: italic;
-    margin-right: 1px;
-}
-
-.logo {
-    padding: 10px 0;
-}
-
-.juliana {
-text-align: right;
-}
-
-.curriculo .coluna_r{
-display: flex; 
-flex-direction: column; 
-justify-content: center;
-}
-
-.juliana ul {
-text-align: left;
-}
-
-.section1 .container {
-display: flex; 
-flex-direction: row; 
-justify-content: space-around;
-}
-
-.profile-picsocias{
-  margin-right: 40px;
-margin-bottom: 20px;
-    margin-top: 10px;
-filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
-width: 100%;
-}
-
-.profile-picpredio {
-    margin-top: 30px;
-filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
-}
-
-.profile-picpredio {
-width: 100%;
-max-width: 100%;
-}
-
-.profile-picpredio:focus-visible,
-.profile-picpredio:hover {
-    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
-  transition: filter 0.5s;
-}
-
-.profile-picsocias:focus-visible,
-.profile-picsocias:hover {
-    filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
-  transition: filter 0.5s;
-}
-
-.profile-picsocias,
-.apresentacao {
-display: flex; 
-flex-direction: column; 
-justify-content: center;
-width: 50%;
-}
-
-figure {
-  display: block;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-.centro {
-    text-align: center;
-}
-
-.indentacao {
-    text-indent: 20px;
-    line-height: 1.7;
-text-align: justify;
-}
-
-.apresentacao .indentacao {
-    line-height: 2;
-    text-indent: 30px;
-    margin-bottom: 10px;
-    word-spacing: 9px;
-    text-align: justify;
-}
+/* BÁSICO */
 
 body {
-    background-color: black;
-    color: #ecf0f1;
-    overflow-x: hidden;
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+background-color: black;
+color: #ecf0f1;
+overflow-x: hidden;
+font-family: "Noto Sans JP", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
 }
 
 h1 {
-    font-size: 20pt;
+font-size: 20pt;
 }
 
 h2 {
-    font-size: 18pt;
+font-size: 18pt;
 }
 
 h3 {
-    font-size: 16pt;
+font-size: 16pt;
 }
 
 h4 {
-    font-size: 14pt;
+font-size: 14pt;
 }
 
 h5 {
-    font-size: 12pt;
+font-size: 12pt;
 }
 
 p,
 li {
-    font-size: 12pt;
-    min-width: 16px;
+font-size: 12pt;
+min-width: 16px;
 }
+html {
+height: 100%;
+scrollbar-width: none;
+}
+
+strong {
+font-weight: 500;
+}
+
+em {
+font-style: italic;
+margin-right: 1px;
+}
+
+.centro {
+text-align: center;
+}
+
+.indentacao {
+text-indent: 20px;
+line-height: 1.7;
+text-align: justify;
+}
+
+/* IMAGEM */
+
+figure {
+display: block;
+}
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+
+.imgdesktop {
+display: table;
+}
+
+.imgmobile {
+display: none;
+}
+
+/* GERAL */
+
+.section2 h2,
+.section2 h3,
+.section3 h2,
+.section3 h3,
+.section4 h2,
+.section5 h2 {
+padding: 0 10px 3px 1px;
+margin-bottom: 10px;
+}
+
+.destaqueh2, .destaqueh3 {
+font-weight: 700;
+}
+
+.destaqueh3{
+margin-bottom:10px;
+}
+
+.container {
+max-width: 1080px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.section {
+margin: 0 auto;
+padding: 50px 0 10px 0;
+overflow-x: hidden;
+}
+
+.section1,
+.section2,
+.section4,
+.section5 {
+padding-top: 40px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4, 
+.section5 {
+background-color: #ecf0f1;
+color: black;
+}
+
+/* HEADER */
 
 header {
 background-color: #d9d9d9;
@@ -151,111 +142,37 @@ border-bottom: 3px solid #d9d9d9;
 border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;
 }
 
-
 header .container2 {
 padding: 5px 0 10px 0;
 }
 
 .container2 li a {
-  padding: 0 10px;
+padding: 0 10px;
 }
 
 .container2 li:first-child a {
-  padding-left:0;
+padding-left:0;
 }
 
 .container2 li:last-child a {
-  padding-right:0;
+padding-right:0;
 }
 
 .container2 ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
 }
 
 .container2 li {
-  position: relative;
+position: relative;
 }
 
-.section3 ul {
-    margin: 10px;
+.logo {
+padding: 10px 0;
 }
 
-.section3 {
-    margin-top: 20px;
-}
-
-.section3 li {
-    padding: 0 20px;
-    position: relative;
-}
-
-.section3 li::before {
-    content: '▪';
-    position: absolute;
-    left: -0;
-    top: -1px;
-    font-weight: 500;
-    color: #a4a4a4;
-}
-
-.areaatuacao {
-    display: flex;
-    flex-direction: row;
-    max-width: 100%;
-    flex-wrap: wrap;
-}
-
-.areaatuacao h4 {
-/*border-bottom: 2px solid #7f8c8d;
-border-image: linear-gradient(to right, #bdc3c7, #B8860B00) 1 stretch;*/
-font-weight: 550;
-}
-
-.areaatuacao ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    line-height: 1.7;
-}
-
-.personalidade,
-.imobiliario,
-.obrigacoes,
-.medico,
-.intelectual {
-    border-radius: 7px;
-    padding: 0 10px 10px 10px;
-/*    margin-bottom: 10px;
-    margin-top: 10px;
-    border-bottom: 2px solid #bdc3c7;
-    border-image: linear-gradient(to right, #B8860B00, #bdc3c7) 1 stretch;*/
-}
-
-.section1 .centro {
-  padding-top: 10px;
-}
-
-.section2 h2,
-.section2 h3,
-.section3 h2,
-.section3 h3,
-.section4 h2,
-.section5 h2 {
-    padding: 0 10px 3px 1px;
-   margin-bottom: 10px;
-}
-
-.destaqueh2, .destaqueh3 {
-/*border-bottom: 2px solid #d9d9d9;
-border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 20 stretch;*/
-font-weight: 700;
-}
-
-.destaqueh3{
-margin-bottom:10px;
-}
+/* FOOTER */
 
 footer {
 text-align: right;
@@ -265,70 +182,151 @@ width: 100%;
 }
 
 footer p {
-  font-size: 11pt;
+font-size: 11pt;
 padding: 3px 0 5px 0;
 }
 
-.container {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+/* PÁGINA  1*/
 
-.section {
-    margin: 0 auto;
-    padding: 50px 0 10px 0;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-}
-
-.section1 .container{
-    display: flex;
-    flex-direction: row;
+.section1 .container {
+display: flex;
+flex-direction: row;
 justify-content: space-around;
 }
 
-.section1,
-.section2,
-.section4,
-.section5 {
-    padding-top: 40px;
+.apresentacao .indentacao {
+line-height: 2;
+text-indent: 30px;
+margin-bottom: 10px;
+word-spacing: 9px;
+text-align: justify;
 }
 
-.section2,
-.section4, 
-.section1,
+.section1 .container {
+display: flex; 
+flex-direction: row; 
+justify-content: space-around;
+}
 
-.section5 {
-    background-color: #ecf0f1;
-    color: black;
+.profile-picsocias,
+.apresentacao {
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+width: 50%;
+}
+
+.profile-picsocias,
+.profile-picpredio {
+filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
+.profile-picsocias img,
+.profile-picpredio img{
+width: 100%;
+max-width: 100%;
+}
+
+.profile-picsocias {
+}
+
+.profile-picpredio {
+}
+
+.profile-picpredio:focus-visible,
+.profile-picpredio:hover {
+filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+transition: filter 0.5s;
+}
+
+.profile-picsocias:focus-visible,
+.profile-picsocias:hover {
+filter: brightness(100%) contrast(85%) saturate(90%) blur(0px) hue-rotate(0deg);
+transition: filter 0.5s;
+}
+
+/* PÁGINA  2*/
+
+.areaatuacao {
+display: flex;
+flex-direction: row;
+max-width: 100%;
+flex-wrap: wrap;
+}
+
+.areaatuacao h4 {
+font-weight: 550;
+}
+
+.areaatuacao ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+line-height: 1.7;
+}
+
+.personalidade,
+.imobiliario,
+.obrigacoes,
+.medico,
+.intelectual {
+padding: 0 10px 10px 10px;
+}
+
+.section3 ul {
+margin: 10px;
+}
+
+.section3 {
+margin-top: 20px;
+}
+
+.section3 li {
+padding: 0 20px;
+position: relative;
+}
+
+.section3 li::before {
+content: '▪';
+position: absolute;
+left: -0;
+top: -1px;
+font-weight: 500;
+color: #a4a4a4;
+}
+
+/* PÁGINA  3*/
+
+.curriculo .coluna_r{
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+}
+
+.juliana ul {
+text-align: left;
+}
+
+.juliana {
+text-align: right;
 }
 
 .destaquecurriculo {
-    font-weight: 400;
-}
-
-.imgdesktop {
-    display: table;
-}
-
-.imgmobile {
-    display: none;
+font-weight: 400;
 }
 
 .curriculo {
-    display: flex;
-    flex-direction: row;
+display: flex;
+flex-direction: row;
 justify-content: space-around;
 }
 
 .curriculo2 {
-    flex-direction: row-reverse;
+flex-direction: row-reverse;
 }
 
 .curriculo .profileimg {
-  border: 2px double #b7b7b7;
+border: 2px double #b7b7b7;
 }
 
 .accordion-txt p{
@@ -337,97 +335,74 @@ line-height: 2;
 
 .coluna_r {
 margin-left: 40px;
-  width: 66%;
+width: 66%;
 }
 
 .coluna {
-    width: 30%;
+width: 30%;
 }
 
 .curriculo {
-    margin-bottom: 20px;
-    margin-top: 10px;
-    filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+margin-bottom: 20px;
+margin-top: 10px;
+filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .curriculo:focus-visible,
 .curriculo:hover {
-    filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
-  transition: filter 0.5s;
+filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+transition: filter 0.5s;
 }
 
 .listagem {
-    padding: 5px 0 15px 15px;
-    line-height: 1.7;
-    margin-left: 5px;
+padding: 5px 0 15px 15px;
+line-height: 1.7;
+margin-left: 5px;
 }
 
 .listagem li::before {
-    content: '▪';
-    font-weight: 500;
-    margin-right: 10px;
-    margin-left: -25px;
-    color: #a4a4a4;
+content: '▪';
+font-weight: 500;
+margin-right: 10px;
+margin-left: -25px;
+color: #a4a4a4;
 }
 
-.listagemextra {
-    margin-top: 7px !important;
-    margin-left: -16px;
-}
-
-.listagemextra .listagem li::before {
-    content: '▪';
-    font-weight: 500;
-    margin-right: 5px;
-    margin-left: -16px;
-}
-
-.listagemextra::before {
-    content: none !important;
-    margin-right: 0 !important;
-    margin-left: 0 !important;
-}
-
-.listagemextra .listagem {
-    margin-left: 0;
-    padding-bottom: 0;
-}
+/* PÁGINA  4*/
 
 .contato {
-    margin: 10px 0 5px 0;
+margin: 10px 0 5px 0;
 }
 
 .contato img {
-    margin-right: 5px;
-    vertical-align: middle;
-    display: inline;
+margin-right: 5px;
+vertical-align: middle;
+display: inline;
 }
 
 .colunacontato {
-    /*  float: left;width: 30%;*/
-    margin-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .sobrecontato {
-    line-height: 1.5;
-    margin-bottom: 20px;
+line-height: 1.5;
+margin-bottom: 20px;
 }
 
 .mapa {
-    /*  float: left;*/
-    max-width: 100%;
-    border: 2px double #b7b7b7;
+max-width: 100%;
+border: 2px double #b7b7b7;
 }
 
 .mapa iframe {
-    width: 100%;
-    max-width: 100%;
-    height: 400px;
+width: 100%;
+max-width: 100%;
+height: 400px;
 }
 
 /*@media (max-width: 1080px) {
 .areaatuacao {
-    display: block;
+display: block;
 }
 
 .section1 .container {
@@ -439,60 +414,36 @@ padding: 5px 20px 10px 20px;
 }
 
 container2 li a {
-  padding: 0 5px 0 0;
+padding: 0 5px 0 0;
 }
 
-    header {
-        max-width: 100%;*/
-        /*padding: 15px 0;*/
-   /* }
-
-    .curriculo {
+.curriculo {
 display: block;
-        max-width: 90%;
-        margin: auto;
-        margin-bottom: 20px;
-    }
+}
 
-    .section4 h2 {
-        margin-bottom: 30px;
-    }
+.colunacontato {
+float: none;
+width: 100%;
+}
 
-    .colunacontato {
-        float: none;
-        width: 100%;
-        margin-right: 0;
-   }
+.imgdesktop {
+display: none;
+}
 
-    .imgdesktop {
-        display: none;
-    }
-
-    .imgmobile {
-        display: table;
-    }
-
-    .coluna,
-    .coluna_r,
-    .curriculo {
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
+.imgmobile {
+display: table;
+}
 
 .coluna_r h3 {
 margin-top: 7px;
 }
 
-    .section1 .profile-pic {
-        margin: 0;
-        margin-bottom: 20px;
-    }
+.section1 .profile-pic {
+margin: 0;
+margin-bottom: 20px;
+}
 
-    .colunalista p {
-  margin-left: 9px;
-}
-}
+}*/
 
 @media (max-width: 400px) {
 
@@ -501,7 +452,8 @@ word-spacing: -1px;
 letter-spacing: -1px;
  }
 
-p{
+p {
 text-align: left !important;
 }
-}*/
+    
+}
