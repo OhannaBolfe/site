@@ -424,7 +424,7 @@ margin-left: 40px;
     height: 400px;
 }
 
-@media (max-width: 1080px) {
+/*@media (max-width: 1080px) {
 .areaatuacao {
     display: block;
 }
@@ -503,4 +503,4 @@ letter-spacing: -1px;
 p{
 text-align: left !important;
 }
-}
+}*/
