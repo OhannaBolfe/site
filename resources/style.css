@@ -22,12 +22,6 @@ flex-direction: column;
 justify-content: center;
 }
 
-.apresentacao {
-display: flex; 
-flex-direction: column; 
-justify-content: center;
-}
-
 .juliana ul {
 text-align: left;
 }
@@ -70,7 +64,10 @@ max-width: 100%;
 
 .profile-picsocias,
 .apresentacao {
-/*width: 50%;*/
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+width: 50%;
 }
 
 figure {
