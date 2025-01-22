@@ -1,6 +1,10 @@
-$(window).load(function() {
-$('.loaderpage').fadeOut();
-$('body').css('overflow','inherit');
+$(document).ready(function() {
+    $('html').addClass('loading');
+    setTimeout(function(){
+        $('.loaderpage').fadeOut(300, function() {
+             $('html').removeClass('loading');
+        });
+    }, 500)
 });
 
 
