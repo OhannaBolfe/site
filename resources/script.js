@@ -1,3 +1,9 @@
+$(window).load(function() {
+$('.loaderpage').fadeOut();
+$('body').css('overflow','inherit');
+});
+
+
 const toggleButton = document.querySelector('.toggle-button');
 const sidebar = document.querySelector('.sidebar');
 const mainContent = document.querySelector('.main-content');
