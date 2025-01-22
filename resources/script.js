@@ -2,7 +2,7 @@ $(document).ready(function() {
     $('carregamento').addClass('loading');
     setTimeout(function(){
         $('.loaderpage').fadeOut(300, function() {
-             $('html').removeClass('loading');
+             $('carregamento').removeClass('loading');
         });
     }, 500)
 });
