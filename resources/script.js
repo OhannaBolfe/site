@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('html').addClass('loading');
+    $('carregamento').addClass('loading');
     setTimeout(function(){
         $('.loaderpage').fadeOut(300, function() {
              $('html').removeClass('loading');
