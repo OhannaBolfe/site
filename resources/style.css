@@ -246,12 +246,12 @@ footer p {
   font-weight: 550;
 }
 
-/*.areaatuacao ul {
-   display: flex;
+.areaatuacao ul {
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
- line-height: 1.7;
-  width: 100%;*/
+  line-height: 1.7;
+  width: 100%;
 }
 
 .personalidade,
@@ -262,62 +262,26 @@ footer p {
   padding: 0 10px 10px 10px;
 }
 
-/*.section3 ul {
+.section3 ul {
   margin: 10px;
-}*/
+}
 
 .section3 {
   margin-top: 30px;
 }
 
-/*.section3 li {
+.section3 li {
   padding: 0 20px;
   position: relative;
-}*/
+}
 
-/*.section3 li::before {
+.section3 li::before {
   content: '▪';
   position: absolute;
   left: -0;
   top: -1px;
   font-weight: 500;
   color: #a4a4a4;
-}*/
-
-.lista-com-controle {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    max-height: 3em;
-    overflow: hidden;
-    transition: max-height 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-.lista-com-controle li {
-    display: block;
-    line-height: 1.5;
-}
-
-.lista-com-controle::after {
-    content: '♡';
-    position: absolute;
-    right: 5px;
-    bottom: 5px;
-    font-size: 1.5em;
-    transition: transform 0.3s ease-in-out;
-    padding: 5px;
-}
-
-.lista-com-controle.expandido {
-    max-height: none;
-    overflow: visible;
-}
-
-.lista-com-controle.expandido::after {
-    content: '◇';
-    transform: rotate(180deg);
 }
 
 /* PÁGINA  3*/
