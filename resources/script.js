@@ -1,9 +1,8 @@
 $(document).ready(function() {
-    $('.carregamento').addClass('loading');
-    setTimeout(function(){
-        $('.carregamento').removeClass('loading'); // Remove a classe loading primeiro
-        $('.loaderpage').fadeOut(300); // Em seguida, o fadeOut
-    }, 500);
+    // Fade out o loader após o carregamento completo da página
+    window.onload = function() {
+        $('.loaderpage').fadeOut(500);
+    };
 });
 
 // Atualiza o ano no rodapé
@@ -32,5 +31,4 @@ document.addEventListener('DOMContentLoaded', function() {
     const currentYear = new Date().getFullYear();
     const copyrightElement = document.querySelector('meta[name="copyright"]');
     const yearElement = document.getElementById("currentYear");
-
-    
+});
