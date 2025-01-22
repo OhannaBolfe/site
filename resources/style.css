@@ -1,5 +1,5 @@
 .carregamento.loading {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .loaderpage {
@@ -17,15 +17,15 @@
 }
 
 #load {
-  width: 100px;
-  height: 100px;
-  background-image: url('images/carregando.gif'); /* Ajuste o caminho */
-  background-repeat: no-repeat;
-  background-position: center center;
+    width: 100px;
+    height: 100px;
+    background-image: url('images/carregando.gif'); /* Ajuste o caminho */
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .carregamento {
-  overflow: visible;
+    overflow: visible;
 }
 
 /* BÁSICO */
