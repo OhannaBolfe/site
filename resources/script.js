@@ -27,33 +27,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const listas = document.querySelectorAll('.lista-com-controle');
-    
+
     listas.forEach(lista => {
-        
-        // Verificar se a lista excede 2 linhas
-        const lineHeight = parseFloat(window.getComputedStyle(lista.querySelector('li')).lineHeight);
-        const items = lista.querySelectorAll('li').length;
-        const alturaLimite = 2 * lineHeight;
-        
-        if(items > 2) {
-          lista.classList.add('limitado');
-
-          lista.addEventListener('click', function(event) {
-            event.stopPropagation();
+        lista.addEventListener('click', function (event) {
+            event.stopPropagation(); // Impede que o clique se propague para o document
             lista.classList.toggle('expandido');
-          });
-        }
-
+        });
     });
 
-
-    document.addEventListener('click', function() {
-         listas.forEach(lista => {
-              if(lista.classList.contains('expandido')){
-                  lista.classList.remove('expandido');
-              }
+    document.addEventListener('click', function () {
+        listas.forEach(lista => {
+            if (lista.classList.contains('expandido')) {
+                lista.classList.remove('expandido');
+            }
         });
     });
 });
