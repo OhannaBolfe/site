@@ -1,9 +1,8 @@
 $(document).ready(function() {
     $('.carregamento').addClass('loading');
     setTimeout(function(){
-        $('.loaderpage').fadeOut(300, function() {
-            $('.carregamento').removeClass('loading');
-        });
+        $('.carregamento').removeClass('loading'); // Remove a classe loading primeiro
+        $('.loaderpage').fadeOut(300); // Em seguida, o fadeOut
     }, 500);
 });
 
