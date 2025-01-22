@@ -4,7 +4,7 @@ $(document).ready(function() {
         $('.loaderpage').fadeOut(700, function() {
             $('.carregamento').removeClass('loading');
         });
-    }, 300);
+    }, 500);
 });
 
 // Atualiza o ano no rodapé
