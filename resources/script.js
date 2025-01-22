@@ -1,10 +1,10 @@
 $(document).ready(function() {
     $('.carregamento').addClass('loading');
     setTimeout(function(){
-        $('.loaderpage').fadeOut(300, function() {
+        $('.loaderpage').fadeOut(700, function() {
             $('.carregamento').removeClass('loading');
         });
-    }, 500);
+    }, 300);
 });
 
 // Atualiza o ano no rodapé
