@@ -186,9 +186,9 @@ footer p {
 .apresentacao .indentacao {
 /*  line-height: 3;
   font-size: 18px;*/
-line-height: 2;
+  line-height: 2;
   font-size: 18px;
-  border-top: 2px solid #b7b7b7;
+  border-top: 4px double #b7b7b7;
   border-right: 1px solid #b7b7b7;
   padding: 30px 40px 35px 35px;
   border-radius: 0 20px 0 0;
