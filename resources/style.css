@@ -19,7 +19,7 @@ html.loading {
 #load {
   width: 100px;
   height: 100px;
-  background-image: url('resources/images/carregando.gif'); /* Ajuste o caminho */
+  background-image: url('images/carregando.gif'); /* Ajuste o caminho */
   background-repeat: no-repeat;
   background-position: center center;
 }
