@@ -284,6 +284,46 @@ footer p {
   color: #a4a4a4;
 }
 
+.lista-com-controle {
+    list-style: none; /* Remove marcadores padrão da lista */
+    padding: 0;
+    margin: 0;
+    position: relative; /* Necessário para posicionar o caractere */
+}
+  
+.lista-com-controle li {
+    display: block;
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+.lista-com-controle::after {
+    content: '♡';
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    transition: transform 0.3s ease-in-out;
+}
+  
+.lista-com-controle.expandido::after{
+    transform: rotate(180deg);
+}
+
+.lista-com-controle.limitado{
+    max-height: 3em;
+    overflow: hidden;
+}
+  
+.lista-com-controle.expandido {
+    max-height: none;
+    overflow: visible;
+}
+
+.lista-com-controle.expandido::after{
+    content: '◇';
+}
+
 /* PÁGINA  3*/
 
 .curriculo .coluna_r {
