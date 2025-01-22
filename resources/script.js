@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('.carregamento').addClass('loading');
     setTimeout(function(){
-        $('.loaderpage').fadeOut(700, function() {
+        $('.loaderpage').fadeOut(300, function() {
             $('.carregamento').removeClass('loading');
         });
     }, 500);
