@@ -1,5 +1,5 @@
 .carregamento.loading {
-    overflow: hidden;
+    display: none;
 }
 
 .loaderpage {
@@ -17,7 +17,7 @@
 }
 
 .carregamento {
-    overflow: visible;
+    display: block;
 }
 
 /* BÁSICO */
