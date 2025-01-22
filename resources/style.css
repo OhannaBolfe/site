@@ -199,7 +199,7 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  gap: 40px;
+  gap: 20px;
 }
 
 .profile-picsocias {
