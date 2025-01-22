@@ -246,12 +246,12 @@ footer p {
   font-weight: 550;
 }
 
-.areaatuacao ul {
-  display: flex;
+/*.areaatuacao ul {
+   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  line-height: 1.7;
-  width: 100%;
+ line-height: 1.7;
+  width: 100%;*/
 }
 
 .personalidade,
@@ -262,27 +262,27 @@ footer p {
   padding: 0 10px 10px 10px;
 }
 
-.section3 ul {
+/*.section3 ul {
   margin: 10px;
-}
+}*/
 
 .section3 {
   margin-top: 30px;
 }
 
-.section3 li {
+/*.section3 li {
   padding: 0 20px;
   position: relative;
-}
+}*/
 
-.section3 li::before {
+/*.section3 li::before {
   content: '▪';
   position: absolute;
   left: -0;
   top: -1px;
   font-weight: 500;
   color: #a4a4a4;
-}
+}*/
 
 .lista-com-controle {
     list-style: none; /* Remove marcadores padrão da lista */
@@ -304,6 +304,7 @@ footer p {
     cursor: pointer;
     font-size: 1.5em;
     transition: transform 0.3s ease-in-out;
+  padding: 5px;
 }
   
 .lista-com-controle.expandido::after{
