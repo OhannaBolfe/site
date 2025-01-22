@@ -204,8 +204,9 @@ line-height: 2;
 .section1 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  /*gap: 20px;*/
+  justify-content: center;
+  /*justify-content: space-around;
+  gap: 20px;*/
 }
 
 .profile-picsocias {
