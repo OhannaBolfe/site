@@ -285,15 +285,19 @@ footer p {
 }*/
 
 .lista-com-controle {
-    list-style: none; /* Remove marcadores padrão da lista */
+    list-style: none;
     padding: 0;
     margin: 0;
-    position: relative; /* Necessário para posicionar o caractere */
+    position: relative;
+    max-height: 3em;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    cursor: pointer;
 }
-  
+
 .lista-com-controle li {
     display: block;
-    line-height: 1.5; /* Espaçamento entre linhas */
+    line-height: 1.5;
 }
 
 .lista-com-controle::after {
@@ -301,28 +305,19 @@ footer p {
     position: absolute;
     right: 5px;
     bottom: 5px;
-    cursor: pointer;
     font-size: 1.5em;
     transition: transform 0.3s ease-in-out;
-  padding: 5px;
-}
-  
-.lista-com-controle.expandido::after{
-    transform: rotate(180deg);
+    padding: 5px;
 }
 
-.lista-com-controle.limitado{
-    max-height: 3em;
-    overflow: hidden;
-}
-  
 .lista-com-controle.expandido {
     max-height: none;
     overflow: visible;
 }
 
-.lista-com-controle.expandido::after{
+.lista-com-controle.expandido::after {
     content: '◇';
+    transform: rotate(180deg);
 }
 
 /* PÁGINA  3*/
