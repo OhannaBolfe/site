@@ -1,11 +1,14 @@
 $(document).ready(function() {
-    $('carregamento').addClass('loading');
+    $('.carregamento').addClass('loading');
     setTimeout(function(){
         $('.loaderpage').fadeOut(300, function() {
-             $('carregamento').removeClass('loading');
+            $('.carregamento').removeClass('loading');
         });
-    }, 500)
+    }, 500);
 });
+
+// Atualiza o ano no rodapé
+document.getElementById('currentYear').textContent = new Date().getFullYear();
 
 
 const toggleButton = document.querySelector('.toggle-button');
@@ -31,6 +34,4 @@ document.addEventListener('DOMContentLoaded', function() {
     const copyrightElement = document.querySelector('meta[name="copyright"]');
     const yearElement = document.getElementById("currentYear");
 
-    copyrightElement.setAttribute('content', `Ohanna Schmitt Bolfe, ${currentYear}`);
-    yearElement.textContent = currentYear; 
-});
+    
