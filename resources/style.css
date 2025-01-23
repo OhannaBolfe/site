@@ -1,4 +1,4 @@
-/*.loaderpage {
+.loaderpage {
   z-index: 999999;
   position: fixed;
   width: 100%;
@@ -26,18 +26,17 @@
   font-size: 16px !important;
   line-height: 2 !important;
   font-weight: 500 !important;
-}*/
+}
 
 .loaderpage figure {
   width: 100% !important;
   height: auto !important;
   max-width: 200px;
-display: none;
 }
-/*
+
 .carregamento {
   display: block;
-}*/
+}
 
 /* BÁSICO */
 
