@@ -10,15 +10,15 @@ top: 0;
 left: 0;
 align-items: center;
 justify-content: center;
-flex-wrap: wrap;
 }
 
-.load {}
+.load {
+text-align: center;
+}
 
 .loaderpage figure {
 width: 400px;
 height: auto;
-max-width: 70%;
 }
 
 .carregamento {
