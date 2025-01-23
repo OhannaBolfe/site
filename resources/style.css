@@ -7,7 +7,7 @@
     bottom: 0;
     background-color: #ecf0f1;
     transition: opacity 0.3s ease;
-    display: flex; /* Começar exibido */
+    display: flex;
     align-items: center;
     justify-content: center;
 }
