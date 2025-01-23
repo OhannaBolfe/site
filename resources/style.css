@@ -14,13 +14,13 @@ justify-content: center !important;
 
 .load {
 text-align: center !important;
-margin: 0 auto;
 }
 
 .loaderpage p {
 text-align: center !important;
 font-size: 16px !important;
 line-height: 2 !important;
+font-weight: 500 !important;
 }
 
 .loaderpage figure {
