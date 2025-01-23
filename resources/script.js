@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Fade out o loader após o carregamento completo da página
     window.onload = function() {
-        $('.loaderpage').fadeOut(1000);
+        $('.loaderpage').fadeOut(300);
     };
 });
 
