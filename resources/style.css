@@ -1,42 +1,41 @@
 .loaderpage {
-    z-index: 999999;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #ecf0f1;
-    transition: opacity 0.3s ease;
-    display: flex; /* Já existente, mantém o display flex */
-    top: 0;
-    left: 0;
-    align-items: center !important;
-    justify-content: center !important;
+  z-index: 999999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #ecf0f1;
+  transition: opacity 0.3s ease;
+  display: flex; 
+  top: 0;
+  left: 0;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 #load {
-    display: flex;       /* Adiciona display flex para o container */
-    flex-direction: column; /* Organiza os itens em coluna */
-    align-items: center;    /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
-    text-align: center; /* Garante centralização do texto dentro do parágrafo */
-
+  display: flex;
+  flex-direction: column; 
+  align-items: center;   
+  justify-content: center; 
+  text-align: center;
 }
 
 .loaderpage p {
-    width: 100%;
-    text-align: center !important;
-    font-size: 16px !important;
-    line-height: 2 !important;
-    font-weight: 500 !important;
+  width: 100%;
+  text-align: center !important;
+  font-size: 16px !important;
+  line-height: 2 !important;
+  font-weight: 500 !important;
 }
 
 .loaderpage figure {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 200px;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 200px;
 }
 
 .carregamento {
-display: block;
+  display: block;
 }
 
 /* BÁSICO */
@@ -246,8 +245,8 @@ footer p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*justify-content: space-around;
-  gap: 20px;*/
+  /*justify-content: space-around;*/
+  gap: 80px;
 }
 
 .profile-picsocias {
