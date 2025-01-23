@@ -14,11 +14,13 @@ justify-content: center;
 
 .load {
 text-align: center;
+width: 80%;
 }
 
 .loaderpage figure {
-width: 400px;
+width: 100%;
 height: auto;
+max-width: 400px;
 }
 
 .carregamento {
