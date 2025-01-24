@@ -486,7 +486,21 @@ margin-right: 0;
 .listagem {
 padding: 15px 0 15px 30px;
 line-height: 1.5;
-  } 
+}
+  
+.profile-pic {
+display: block;
+width: 95%;
+}
+
+.imgdesktop {
+display: none;
+}
+
+.imgmobile {
+display: block;
+}
+  
 }
 
 @media (max-width: 500px) {
@@ -515,11 +529,6 @@ line-height: 1.5;
     display: block;
   }
 
-  .profile-pic {
-    display: block;
-    width: 95%;
-  }
-
   .contato {
     margin-top: 20px;
   }
@@ -527,14 +536,6 @@ line-height: 1.5;
   .apresentacao .indentacao {
     line-height: 2.5;
     font-size: 16px;
-  }
-
-  .imgdesktop {
-    display: none;
-  }
-
-  .imgmobile {
-    display: block;
   }
 
   .section1 .container,
