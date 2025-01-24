@@ -459,7 +459,7 @@ display: block;
 .coluna_r {
 width: 96%;
 display: block;
-margin: 20px 20px 0 20px;
+margin: 20px 20px 0 20px !important;
 }
 
 .coluna {
