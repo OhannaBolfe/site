@@ -443,7 +443,7 @@ max-width: 100%;
 
 @media screen and  (max-width: 600px) {
 
-.curriculo.
+.curriculo,
 .containercontato {
 width: 97%;
 display: block;
