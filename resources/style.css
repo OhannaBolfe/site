@@ -437,50 +437,23 @@ footer img {
   transition: filter 0.5s;
 }
 
-/*@media (max-width: 1080px) {
-.areaatuacao {
-display: block;
-}
+@media (max-width: 1080px) {
 
-.section1 .container {
-display: block;
-}
-
-header .container2 {
-padding: 5px 20px 10px 20px;
-}
-
-container2 li a {
-padding: 0 5px 0 0;
-}
-
-.curriculo {
-display: block;
-}
-
-.colunacontato {
-float: none;
+header .container1,
+header .container2,
+.container {
+margin: 0 20px;
 width: 100%;
 }
-
-.imgdesktop {
-display: none;
+  
+.section3 li {
+  width: 44%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
-
-.imgmobile {
-display: block;
+  
 }
-
-.coluna_r h3 {
-margin-top: 7px;
-}
-
-.section1 .profile-pic {
-margin: 0;
-margin-bottom: 20px;
-}
-
-}*/
 
 @media (max-width: 500px) {
 
