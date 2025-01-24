@@ -437,13 +437,13 @@ footer img {
   transition: filter 0.5s;
 }
 
-@media ((min-width: 501px) and (max-width: 1080px)) {
+@media ((min-width: 501px) and (max-width: 1090px)) {
 
 header .container1,
 header .container2,
 .container {
-margin: 0 20px !important;
-width: 100% !important;
+margin: 0 20px;
+width: 100%;
 }
   
 .section3 li {
