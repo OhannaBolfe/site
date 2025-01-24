@@ -520,6 +520,10 @@ width: 70%;
 display: block;
 }
 
+.areaatuacao li {
+text-align: left;
+}
+
   /*.profile-picsocias,
   .apresentacao
   {
