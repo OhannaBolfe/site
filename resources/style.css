@@ -524,36 +524,28 @@ display: block;
 text-align: left;
 }
 
-  /*.profile-picsocias,
-  .apresentacao
-  {
-    width: 97%;
-    display: block;
-  }
+.profile-picsocias,
+.apresentacao
+{
+width: 97%;
+display: block;
+}
 
-  .apresentacao .indentacao {
-    line-height: 2.5;
-    font-size: 16px;
-  }
+.apresentacao .indentacao {
+line-height: 2.5;
+font-size: 16px;
+}
 
-  .section1 .container,
-  .container {
-    display: block;
-    margin: 0 20px;
-    padding: 0;
-  }
+.section1 .container,
+.container {
+display: block;
+margin: 0 20px;
+padding: 0;
+}
 
-  .apresentacao {
-    padding-top: 30px;
-  }
-
-  .areaatuacao ul {
-    display: block;
-  }
-
-  .areaatuacao li {
-    text-align: left;
-  }*/
+.apresentacao {
+padding-top: 30px;
+}
 
 .container2 li {
 width: 50%;
