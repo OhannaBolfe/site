@@ -437,7 +437,7 @@ footer img {
   transition: filter 0.5s;
 }
 
-@media (max-width: 1080px) {
+@media ((min-width: 501px) and (max-width: 1080px)) {
 
 header .container1,
 header .container2,
