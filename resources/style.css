@@ -456,15 +456,15 @@ display: block;
 }
   
 .curriculo .coluna_r,
-.coluna_r,
+.coluna_r {
+width: 96%;
+display: block;
+margin: 20px 20px 0 20px;
+}
+
 .coluna {
 width: 100%;
 display: block;
-}
-
-.coluna_r,
-.contato {
-margin-top: 20px;
 }
 
 .destaquecurriculo,
@@ -519,6 +519,10 @@ width: 70%;
   .container2 li a {
     padding: 5px 0 7px 0;
     display: block;
+  }
+  
+  .contato {
+    margin-top: 20px;
   }
 
   .profile-picsocias,
