@@ -218,8 +218,11 @@ footer img {
   max-width: 100%;
 }
 
-.profile-picsocias {
+.profile-picsocias figure {
   border: 5px double #b7b7b7;
+}
+
+.profile-picsocias {
   filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
@@ -321,7 +324,7 @@ footer img {
   justify-content: space-around;
 }
 
-.curriculo .profileimg {
+.curriculo .profileimg figure {
   border: 3px double #b7b7b7;
 }
 
@@ -419,9 +422,12 @@ footer img {
 }
 
 .profile-picpredio {
+  border: 5px double #b7b7b7;
+}
+
+.profile-picpredio {
   filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
   margin-top: 20px;
-  border: 5px double #b7b7b7;
 }
 
 .profile-picpredio:focus-visible,
