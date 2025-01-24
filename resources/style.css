@@ -437,8 +437,8 @@ footer img {
   transition: filter 0.5s;
 }
 
-@media (max-width: 1090px)) {
-
+@media screen and (min-width: 601px) and (max-width: 1090px) {
+  
 header .container1,
 header .container2,
 .container {
@@ -506,10 +506,6 @@ width: 70%;
 }
 
 @media (max-width: 500px) {
-
-  header .container2 {
-    padding: 0;
-  }
 
   .container2 li {
     width: 50%;
