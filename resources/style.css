@@ -188,6 +188,11 @@ footer p {
   padding: 5px 0 7px 0;
 }
 
+footer img {
+  vertical-align: middle;
+  display: inline;
+}
+
 /* GERAL */
 
 .section2 h2,
