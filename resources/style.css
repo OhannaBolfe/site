@@ -38,7 +38,7 @@ li {
 
 html {
   height: 100%;
-  scrollbar-width: none;
+  scrollbar-width: auto;
 }
 
 strong {
