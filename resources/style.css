@@ -437,7 +437,7 @@ footer img {
   transition: filter 0.5s;
 }
 
-@media ((min-width: 501px) and (max-width: 1090px)) {
+@media (max-width: 1090px)) {
 
 header .container1,
 header .container2,
@@ -446,6 +446,47 @@ margin: 0 20px;
 max-width: 100%;
 }
   
+}
+
+@media (max-width: 600px) {
+
+.curriculo {
+width: 97%;
+display: block;
+}
+  
+.curriculo .coluna_r,
+.coluna_r,
+.coluna {
+width: 100%;
+display: block;
+}
+
+.coluna_r,
+.contato {
+margin-top: 20px;
+}
+
+.destaquecurriculo,
+.accordion-txt-span {
+margin-left: 0;
+}
+
+.juliana p,
+.juliana h3 {
+text-align: left !important;
+}
+
+.juliana .destaquecurriculo, 
+.juliana .accordion-txt-span {
+margin-right: 0;
+}
+
+.juliana .listagem,
+.listagem {
+padding: 15px 0 15px 30px;
+line-height: 1.5;
+  } 
 }
 
 @media (max-width: 500px) {
@@ -469,7 +510,7 @@ max-width: 100%;
   .containercontato,
   .colunacontato,
   .colunacontato_r,
-  .curriculo {
+  {
     width: 97%;
     display: block;
   }
@@ -479,36 +520,8 @@ max-width: 100%;
     width: 95%;
   }
 
-  .curriculo .coluna_r,
-  .coluna {
-    width: 100%;
-    display: block;
-  }
-
-  .coluna_r,
   .contato {
     margin-top: 20px;
-  }
-
-  .destaquecurriculo,
-  .accordion-txt-span {
-    margin-left: 0;
-  }
-
-  .juliana p,
-  .juliana h3 {
-    text-align: left !important;
-  }
-
-  .juliana .destaquecurriculo, 
-  .juliana .accordion-txt-span {
-    margin-right: 0;
-  }
-
-  .juliana .listagem,
-  .listagem {
-    padding: 15px 0 15px 30px;
-    line-height: 1.5;
   }
 
   .apresentacao .indentacao {
