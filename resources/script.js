@@ -1,9 +1,4 @@
-$(document).ready(function() {
-    // Fade out o loader após o carregamento completo da página
-    window.onload = function() {
-        $('.loaderpage').fadeOut(100);
-    };
-});
+
 
 document.getElementById('currentYear').textContent = new Date().getFullYear();
 
