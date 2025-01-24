@@ -443,7 +443,7 @@ header .container1,
 header .container2,
 .container {
 margin: 0 20px;
-width: 100%;
+max-width: 100%;
 }
   
 .section3 li {
