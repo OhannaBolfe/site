@@ -523,6 +523,7 @@ text-align: left;
 {
 width: 97%;
 display: block;
+border: none;
 }
 
 .apresentacao .indentacao {
@@ -560,6 +561,11 @@ padding: 10px 0;
 display: flex;
 flex-direction: row;
 justify-content: center;
+border: none;
+}
+
+.profile-pic figure{
+border: 5px double #b7b7b7;
 }
 
 }
