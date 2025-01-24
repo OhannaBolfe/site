@@ -500,12 +500,6 @@ margin-right: 0;
 padding: 15px 0 15px 30px;
 line-height: 1.5;
 }
-  
-.profile-pic {
-display: flex;
-flex-direction: row;
-justify-content: center;
-}
 
 .imgdesktop {
 display: none;
@@ -560,6 +554,12 @@ display: block;
 footer p {
 font-size: 12pt;
 padding: 10px 0;
+}
+
+.profile-pic {
+display: flex;
+flex-direction: row;
+justify-content: center;
 }
 
 }
