@@ -426,8 +426,8 @@ footer img {
 
 .profile-picpredio:focus-visible,
 .profile-picpredio:hover {
-  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
-  transition: filter 0.5s;
+filter: brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+transition: filter 0.5s;
 }
 
 @media screen and (max-width: 1090px) {
@@ -516,33 +516,11 @@ display: block;
 width: 70%;
 }
 
-  /*
-  .container2 li {
-    width: 50%;
-    text-align: center;
-  }
-
-  .container2 li a {
-    padding: 5px 0 7px 0;
-    display: block;
-  }
-  
-  .contato {
-    margin-top: 20px;
-  }
-
-  .profile-picsocias,
-  .apresentacao,
-  .containercontato,
-  .colunacontato,
-  .colunacontato_r,
+  /*.profile-picsocias,
+  .apresentacao
   {
     width: 97%;
     display: block;
-  }
-
-  .contato {
-    margin-top: 20px;
   }
 
   .apresentacao .indentacao {
@@ -561,12 +539,6 @@ width: 70%;
     padding-top: 30px;
   }
 
-  footer p {
-    text-align: center;
-    font-size: 12pt;
-    padding: 10px 0;
-  }
-
   .areaatuacao ul {
     display: block;
   }
@@ -575,5 +547,19 @@ width: 70%;
     text-align: left;
   }*/
 
+.container2 li {
+width: 50%;
+text-align: center;
+}
+
+.container2 li a {
+padding: 5px 0 7px 0;
+display: block;
+}
+
+footer p {
+font-size: 12pt;
+padding: 10px 0;
+}
 
 }
