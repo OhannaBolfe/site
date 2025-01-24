@@ -188,14 +188,8 @@ footer img {
 /* PÁGINA  1*/
 
 .apresentacao .indentacao {
-/*  line-height: 3;
-  font-size: 18px;*/
   line-height: 2;
   font-size: 18px;
-  /*border-top: 4px double #b7b7b7;
-  border-right: 1px solid #b7b7b7;
-  padding: 30px 40px 35px 35px;
-  border-radius: 0 20px 0 0;*/
 }
 
 .apresentacao {
@@ -209,7 +203,6 @@ footer img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /*justify-content: space-around;*/
   gap: 80px;
 }
 
@@ -217,7 +210,6 @@ footer img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*width: 50%;*/
   width: 40%;
 }
 
@@ -429,6 +421,7 @@ footer img {
 .profile-picpredio {
   filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
   margin-top: 20px;
+  border: 5px double #b7b7b7;
 }
 
 .profile-picpredio:focus-visible,
@@ -450,7 +443,8 @@ max-width: 100%;
 
 @media screen and  (max-width: 600px) {
 
-.curriculo {
+.curriculo.
+.containercontato {
 width: 97%;
 display: block;
 }
@@ -460,6 +454,25 @@ display: block;
 width: 96%;
 display: block;
 margin: 20px 20px 0 20px !important;
+}
+
+.colunacontato, .colunacontato_r {
+width: 100%;
+display: block;
+}
+
+.contato2 img {
+margin-right: 5px;
+vertical-align: bottom;
+}
+
+.contato2 {
+margin-top: 5px;
+}
+  
+.contato {
+margin-top: 15px;
+line-height: 1;
 }
 
 .coluna {
