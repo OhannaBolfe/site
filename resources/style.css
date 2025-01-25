@@ -162,9 +162,22 @@ footer img {
 .section5 h2 {
   padding-bottom: 7px;
   margin-bottom: 20px;
-  border-bottom: 3px solid #23282f;
-  border-image: linear-gradient(to bottom, #23282f, #ecf0f1) 80 stretch;
 }
+
+.section2 h2,
+.section3 h2,
+.section4 h2,
+.section5 h2 {
+  border-bottom: 1px solid #3f3f3f;
+}
+
+.section2 h3,
+.section3 h3 {
+  border-bottom: 1px solid #626262;
+}
+
+
+border-bottom: 1px solid #23282f;
 
 .destaqueh2,
 .destaqueh3 {
@@ -226,7 +239,7 @@ footer img {
 }
 
 .profile-picsocias figure {
-  border: 4px double gray;
+  border: 5px double #b7b7b7;
 }
 
 .profile-picsocias:focus-visible,
@@ -302,7 +315,7 @@ padding-bottom: 10px;
 }
 
 .curriculo figure {
-  border: 4px double gray;
+  border: 5px double #b7b7b7;
 }
 
 .juliana {
@@ -436,7 +449,7 @@ padding-bottom: 10px;
 }
 
 .profile-picpredio figure {
-  border: 4px double gray;
+  border: 5px double #b7b7b7;
 }
 
 .profile-picpredio {
