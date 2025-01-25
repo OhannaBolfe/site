@@ -489,6 +489,10 @@ padding-top: 30px;
 width: 97%;
 display: block;
 }
+
+.coluna_r p {
+border-bottom: 2px solid #b7b7b7;
+}
   
 .curriculo .coluna_r,
 .coluna_r {
