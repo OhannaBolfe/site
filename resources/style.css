@@ -197,7 +197,7 @@ footer img {
 .apresentacao {
   display: flex;
   flex-direction: column;
-  justify-content: flex-evenly;
+  justify-content: space-between;
   width: 50%;
 }
 
