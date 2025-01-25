@@ -448,16 +448,17 @@ margin: 0 20px;
 max-width: 100%;
 }
   
-.profile-picsocias
-{
+.profile-picsocias figure {
 width: 60%;
+}
+  
+.profile-picsocias {
 display: flex;
 flex-direction: row;
 justify-content: center;
 }
 
-.apresentacao
-{
+.apresentacao {
 width: 97%;
 display: block;
 }
