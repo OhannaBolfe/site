@@ -5,7 +5,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: white;
+  background-color: #ecf0f1;
   color: black;
 }
 
@@ -162,8 +162,8 @@ footer img {
 .section5 h2 {
   padding-bottom: 7px;
   margin-bottom: 20px;
-  border-bottom: 4px solid white;
-  border-image: linear-gradient(to bottom, #23282f, white) 6 stretch;
+  border-bottom: 3px solid #23282f;
+  border-image: linear-gradient(to bottom, #23282f, #ecf0f1) 80 stretch;
 }
 
 .destaqueh2,
@@ -226,7 +226,7 @@ footer img {
 }
 
 .profile-picsocias figure {
-  border: 5px double black;
+  border: 4px double gray;
 }
 
 .profile-picsocias:focus-visible,
@@ -265,8 +265,8 @@ footer img {
 }
 
 .colunasection3 {
-border-bottom: 2px solid white;
-border-image: linear-gradient(to right, #9b9b9b, white, white) 30 stretch;
+border-bottom: 1px solid #23282f;
+border-image: linear-gradient(to right, #23282f, #ecf0f1) 30 stretch;
 margin-bottom: 10px;
 padding-bottom: 10px;
 }
@@ -302,7 +302,7 @@ padding-bottom: 10px;
 }
 
 .curriculo figure {
-  border: 5px double black;
+  border: 4px double gray;
 }
 
 .juliana {
@@ -436,7 +436,7 @@ padding-bottom: 10px;
 }
 
 .profile-picpredio figure {
-  border: 5px double black;
+  border: 4px double gray;
 }
 
 .profile-picpredio {
