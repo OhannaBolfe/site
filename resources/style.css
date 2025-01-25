@@ -208,7 +208,7 @@ footer img {
 .apresentacao {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 50%;
 }
 
@@ -237,7 +237,7 @@ footer img {
 }
 
 .profile-picsocias figure {
-  border: 5px double #b7b7b7;
+  border: 2px solid #b7b7b7;
 }
 
 .profile-picsocias:focus-visible,
@@ -313,7 +313,7 @@ padding-bottom: 10px;
 }
 
 .curriculo figure {
-  border: 5px double #b7b7b7;
+  border: 2px solid #b7b7b7;
 }
 
 .juliana {
@@ -447,7 +447,7 @@ padding-bottom: 10px;
 }
 
 .profile-picpredio figure {
-  border: 5px double #b7b7b7;
+  border: 2px solid #b7b7b7;
 }
 
 .profile-picpredio {
