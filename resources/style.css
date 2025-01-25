@@ -557,7 +557,6 @@ display: none;
 
 .imgmobile {
 display: block;
-width: 70%;
 }
 
 .areaatuacao ul {
@@ -589,7 +588,8 @@ flex-direction: row;
 justify-content: center;
 }
 
-.profile-picsocias figure {
+.profile-picsocias figure,
+.imgmobile figure {
 width: 96%;
 }
 
