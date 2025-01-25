@@ -252,7 +252,7 @@ footer img {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  line-height: 1.7;
+  line-height: 2;
   width: 100%;
 }
 
@@ -265,8 +265,10 @@ footer img {
 }
 
 .colunasection3 {
-border-bottom: 5px solid white;
-border-image: linear-gradient(to left, black, white, white) 30 stretch;
+border-bottom: 2px solid white;
+border-image: linear-gradient(to left, black, white) 20 stretch;
+margin-bottom: 10px;
+padding-bottom: 10px;
 }
 
 .section3 ul {
