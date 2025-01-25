@@ -531,7 +531,8 @@ margin-left: 0;
 }
 
 .juliana p,
-.juliana h3 {
+.juliana h3,
+.listagem {
 text-align: left !important;
 }
 
