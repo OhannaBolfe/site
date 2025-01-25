@@ -266,7 +266,7 @@ footer img {
 
 .colunasection3 {
 border-bottom: 2px solid white;
-border-image: linear-gradient(to left, black, white) 20 stretch;
+border-image: linear-gradient(to right, #9b9b9b, white, white) 30 stretch;
 margin-bottom: 10px;
 padding-bottom: 10px;
 }
