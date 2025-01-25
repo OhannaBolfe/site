@@ -589,4 +589,8 @@ flex-direction: row;
 justify-content: center;
 }
 
+.profile-picsocias figure {
+width: 96%;
+}
+
 }
