@@ -187,23 +187,29 @@ footer img {
 
 /* PÁGINA  1*/
 
-.apresentacao .indentacao {
+.section1 .indentacao {
   line-height: 2;
-  font-size: 18px;
+  font-size: 15px;
+  word-spacing: -1px;
+  text-indent: 30px;
 }
 
 .apresentacao {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 60%;
+}
+
+.containerunico {
+  padding-top: 20px;
 }
 
 .section1 .container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .profile-picsocias {
@@ -211,6 +217,7 @@ footer img {
   flex-direction: column;
   justify-content: center;
   width: 40%;
+  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .profile-picsocias img {
@@ -220,10 +227,6 @@ footer img {
 
 .profile-picsocias figure {
   border: 5px double #b7b7b7;
-}
-
-.profile-picsocias {
-  filter: brightness(100%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
 
 .profile-picsocias:focus-visible,
