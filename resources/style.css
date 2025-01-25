@@ -168,12 +168,13 @@ footer img {
 .section3 h2,
 .section4 h2,
 .section5 h2 {
-  border-bottom: 1px solid #3f3f3f;
+  border-bottom: 5px solid black;
+  border-image: linear-gradient(to bottom, #23282f, #ecf0f1) 15 stretch;
 }
 
 .section2 h3,
 .section3 h3 {
-  border-bottom: 1px solid #626262;
+  border-bottom: 1px solid #777;
 }
 
 .destaqueh2,
@@ -275,8 +276,8 @@ footer img {
 }
 
 .colunasection3 {
-border-bottom: 1px solid #23282f;
-border-image: linear-gradient(to right, #23282f, #ecf0f1, #ecf0f1) 30 stretch;
+border-bottom: 1px solid #777;
+border-image: linear-gradient(to right, #777, #ecf0f1, #ecf0f1) 30 stretch;
 margin-bottom: 10px;
 padding-bottom: 10px;
 }
