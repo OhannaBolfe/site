@@ -100,7 +100,7 @@ header {
 
 header .container1 {
   border-bottom: 5px solid black;
-  border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 30 stretch;
+  border-image: linear-gradient(to bottom, #23282f, #d9d9d9) 80 stretch;
 }
 
 header .container2 {
@@ -415,7 +415,7 @@ padding-bottom: 10px;
 .colunacontato_r {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .containercontato {
@@ -472,7 +472,7 @@ margin: 0 20px;
 max-width: 100%;
 }
   
-.profile-picsocias figure {
+/*.profile-picsocias figure {
 width: 60%;
 }
   
@@ -502,7 +502,7 @@ padding: 0;
 
 .apresentacao {
 padding-top: 30px;
-}
+}*/
   
 }
 
