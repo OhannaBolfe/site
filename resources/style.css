@@ -474,6 +474,15 @@ max-width: 100%;
   
 }
 
+@media screen and  (max-width: 900px) {
+  
+.section1 .indentacao {
+  line-height: 1.7;
+  font-size: 12pt;
+}
+
+}
+
 @media screen and  (max-width: 600px) {
   
 .profile-picsocias figure {
