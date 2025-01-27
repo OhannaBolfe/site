@@ -472,6 +472,10 @@ margin: 0 20px;
 max-width: 100%;
 }
   
+}
+
+@media screen and  (max-width: 600px) {
+  
 .profile-picsocias figure {
 width: 60%;
 }
@@ -504,10 +508,6 @@ padding: 0;
 padding-top: 30px;
 }
   
-}
-
-@media screen and  (max-width: 600px) {
-
 .curriculo,
 .containercontato {
 width: 97%;
