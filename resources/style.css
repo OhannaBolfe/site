@@ -483,7 +483,7 @@ max-width: 100%;
 }
 
 .apresentacao,
-.profile-picsocias{
+.profile-picsocias {
 width: 97%;
 display: block;
 }
@@ -566,7 +566,7 @@ display: none;
 }
 
 .imgmobile {
-display: block;
+display: flex;
 }
 
 .areaatuacao ul {
@@ -596,6 +596,7 @@ padding: 10px 0;
 .imgmobile figure,
 .curriculo figure {
 width: 96%;
+display: flex;
 }
 
 }
