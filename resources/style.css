@@ -525,10 +525,6 @@ width: 100%;
 display: block;
 }
 
-.contato2 img {
-vertical-align: bottom;
-}
-
 .contato2 {
 margin-top: 5px;
 }
@@ -536,6 +532,14 @@ margin-top: 5px;
 .contato {
 margin-top: 15px;
 line-height: 1;
+}
+
+.contato2 {
+line-height: 2;
+}
+
+.colunacontato_r {
+margin-bottom: 30px;  
 }
 
 .coluna {
@@ -599,7 +603,7 @@ padding: 10px 0;
 .profile-picsocias figure,
 .imgmobile figure,
 .curriculo figure {
-width: 96%;
+width: 90%;
 }
 
 }
