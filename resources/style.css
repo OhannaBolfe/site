@@ -476,7 +476,8 @@ max-width: 100%;
   border-image: linear-gradient(to right, #777, #ecf0f1) 30 stretch;  
 }
 
-.apresentacao {
+.apresentacao,
+.profile-picsocias{
 width: 97%;
 display: block;
 }
