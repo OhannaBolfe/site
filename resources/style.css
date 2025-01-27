@@ -482,10 +482,14 @@ max-width: 100%;
   border-image: linear-gradient(to right, #777, #ecf0f1) 30 stretch;  
 }
 
-.apresentacao,
-.profile-picsocias {
+.apresentacao {
 width: 97%;
 display: block;
+}
+
+.profile-picsocias {
+width: 97%;
+display: flex;
 }
 
 .section1 .container,
@@ -566,7 +570,7 @@ display: none;
 }
 
 .imgmobile {
-display: flex;
+display: block;
 }
 
 .areaatuacao ul {
@@ -596,7 +600,6 @@ padding: 10px 0;
 .imgmobile figure,
 .curriculo figure {
 width: 96%;
-display: flex;
 }
 
 }
