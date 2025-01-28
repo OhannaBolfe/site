@@ -92,7 +92,7 @@ img {
 
 .profile-picpredio img,
 .profile-picsocias img {
-  width: 100%;
+  /*width: 100%;*/
   max-width: 100%;
 }
 
