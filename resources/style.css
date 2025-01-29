@@ -105,11 +105,11 @@ img {
 
 .profile-picpredio {
   filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+  margin-top: 20px;
 }
 
 .curriculo figure {
   filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
-  margin-top: 20px;
 }
 
 .profile-picpredio:focus-visible,
