@@ -86,7 +86,7 @@ img {
 
 .profile-pic {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -103,7 +103,10 @@ img {
   border: 2px solid #b7b7b7;
 }
 
-.profile-picpredio ,
+.profile-picpredio {
+  filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+
 .curriculo figure {
   filter: brightness(110%) contrast(110%) saturate(0%) blur(0px) hue-rotate(0deg);
   margin-top: 20px;
