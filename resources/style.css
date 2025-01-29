@@ -574,7 +574,7 @@ display: none;
 }
 
 .imgmobile {
-display: block;
+display: flex;
 }
 
 .areaatuacao ul {
