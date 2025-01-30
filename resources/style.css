@@ -84,9 +84,15 @@ img {
   display: none;
 }
 
-.profile-pic {
+.profile-pic.profile-picsocias {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.profile-pic.profile-picsocias {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
