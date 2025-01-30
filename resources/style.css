@@ -609,4 +609,10 @@ padding: 10px 0;
 width: 90%;
 }
 
+.profile-pic {
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
 }
