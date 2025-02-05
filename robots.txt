@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: https://www.rochatyminskitomasetti.com.br/resources/
+Sitemap: https://www.rochatyminskitomasetti.com.br/sitemap.xml
