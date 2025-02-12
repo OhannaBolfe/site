@@ -460,6 +460,46 @@ padding-bottom: 10px;
   height: 300px;
 }
 
+/* PÁGINA NÃO ENCONTRADA*/
+
+.section_pne .section {
+padding: 60px 0;
+}
+
+.section_pne header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.section_pne header .container1 {
+border: none;
+}
+
+.section_pne h1 {
+text-align: center;
+margin-bottom: 40px;
+}
+
+.section_pne .destaqueh1 {
+font-weight: 950;
+}
+
+.section_pne p {
+text-align: center;
+font-size: 14pt;
+}
+
+.section_pne p:nth-child(3) {
+  line-height: 3;
+}
+
+.section_pne p {
+  margin-right: 15px;
+  vertical-align: middle;
+  display: inline;
+}
+
 @media screen and (max-width: 1090px) {
   
 header .container1,
