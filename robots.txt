@@ -3,3 +3,4 @@ Disallow: https://www.rochatyminskitomasetti.com.br/resources/
 Sitemap: https://www.rochatyminskitomasetti.com.br/sitemap.xml
 Disallow: https://www.rochatyminskitomasetti.com.br/RochaTyminskiTomasetti.pdf
 Disallow: https://www.rochatyminskitomasetti.com.br/.htaccess
+Disallow: https://www.rochatyminskitomasetti.com.br/paginanaoencontrada.html
