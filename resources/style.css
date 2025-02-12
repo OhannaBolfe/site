@@ -51,6 +51,9 @@ em {
 }
 
 .indentacao {
+  font-size: 12pt;
+  min-width: 16px;
+  text-align: justify;
   text-indent: 20px;
   line-height: 1.7;
 }
