@@ -463,7 +463,7 @@ padding-bottom: 10px;
 /* PÁGINA NÃO ENCONTRADA*/
 
 .section_pne .section {
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 .section_pne header {
@@ -481,12 +481,13 @@ border: none;
 }
 
 .section_pne .logo {
-  padding: 40px 0;
+padding: 40px 0;
 }
 
 .section_pne h1 {
+font-size: 25pt;
 text-align: center;
-margin-bottom: 40px;
+margin-bottom: 50px;
 }
 
 .section_pne .destaqueh1 {
@@ -494,32 +495,32 @@ font-weight: 950;
 }
 
 .section_pne p {
-  font-size: 14pt;
-  text-align: center;
+font-size: 14pt;
+text-align: center;
 }
 
-.section_pne p:nth-child(3) {
-  line-height: 3;
+.section_pne p:nth-child(2), .section_pne p:nth-child(3) {
+line-height: 4;
 }
 
 .section_pne p:nth-child(4) {
-  margin-top: 20px;
-  font-weight: bold;
-  font-size: 16pt;
+margin-top: 50px;
+font-weight: bold;
+font-size: 16pt;
 }
 
 .section_pne p img {
-  margin-right: 15px;
-  vertical-align: inherit;
-  display: inline;
+margin-right: 15px;
+vertical-align: inherit;
+display: inline;
 }
 
 .section_pne footer p {
-  padding: 15px 0 20px 0;
+padding: 15px 0 20px 0;
 }
 
 .section_pne footer img {
-  margin-right: 0;
+margin-right: 0;
 }
 
 @media screen and (max-width: 1090px) {
