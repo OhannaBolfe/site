@@ -472,6 +472,10 @@ flex-direction: column;
 justify-content: center;
 }
 
+.section_pne header img {
+width: 300px;
+}
+
 .section_pne header .container1 {
 border: none;
 }
