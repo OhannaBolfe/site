@@ -196,25 +196,13 @@ footer img {
 /* GERAL */
 
 .section2 h1,
-.section2 h2,
 .section3 h1,
-.section3 h2,
 .section4 h1,
 .section5 h1 {
   padding-bottom: 7px;
   margin-bottom: 20px;
-}
-
-.section2 h1,
-.section3 h1,
-.section4 h1,
-.section5 h1 {
   border-bottom: 3px solid #777;
   border-image: linear-gradient(to bottom, #777, #ecf0f1) 70 stretch;
-}
-
-.section2 h2 {
-  border-bottom: 1px solid #777;
 }
 
 .destaqueh1,
@@ -322,7 +310,7 @@ padding-bottom: 10px;
 }
 
 .section3 {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .section3 li {
