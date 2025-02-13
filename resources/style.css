@@ -284,8 +284,9 @@ footer img {
 
 .areaatuacao {}
 
-.areaatuacao h3 {
+.areaatuacao h2 {
   font-weight: 550;
+  font-size: 15pt;
 }
 
 .areaatuacao ul {
