@@ -213,8 +213,7 @@ footer img {
   border-image: linear-gradient(to bottom, #777, #ecf0f1) 70 stretch;
 }
 
-.section2 h2,
-.section3 h2 {
+.section2 h2 {
   border-bottom: 1px solid #777;
 }
 
@@ -284,7 +283,7 @@ footer img {
 
 .areaatuacao {}
 
-.areaatuacao h2 {
+.colunasection3 h2 {
   font-weight: 550;
   font-size: 15pt;
 }
